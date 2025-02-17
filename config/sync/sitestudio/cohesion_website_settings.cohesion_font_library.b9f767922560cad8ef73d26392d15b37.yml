@@ -1,0 +1,19 @@
+uuid: df750aaa-9e5a-41da-94b2-3b8ddf891269
+langcode: en
+status: true
+dependencies: {  }
+label: 'Montserrat SemiBold'
+id: b9f767922560cad8ef73d26392d15b37
+json_values: |
+  {
+      "type": "import",
+      "name": "Montserrat SemiBold",
+      "url": "https:\/\/fonts.googleapis.com\/css?family=Montserrat:600",
+      "uid": "b9f767922560cad8ef73d26392d15b37"
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+source: fonts

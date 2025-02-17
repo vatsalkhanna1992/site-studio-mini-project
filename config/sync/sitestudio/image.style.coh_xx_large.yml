@@ -1,0 +1,15 @@
+uuid: 9e13cc2a-3f26-4328-8392-4dacf9c4ea33
+langcode: en
+status: true
+dependencies: {  }
+name: coh_xx_large
+label: 'XX large (W1600)'
+effects:
+  61b47a2e-a56a-415c-b218-902b1601bdeb:
+    uuid: 61b47a2e-a56a-415c-b218-902b1601bdeb
+    id: image_scale
+    weight: 2
+    data:
+      width: 1600
+      height: null
+      upscale: false

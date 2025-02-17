@@ -1,0 +1,27 @@
+uuid: f6c59070-04fc-4c2c-98ad-dab8f9c0589e
+langcode: en
+status: true
+dependencies: {  }
+label: FC9F43
+id: fc9f43
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#fc9f43",
+              "rgba": "rgba(252, 159, 67, 1)"
+          }
+      },
+      "uid": "fc9f43",
+      "name": "FC9F43",
+      "class": ".coh-color-fc9f43",
+      "variable": "$coh-color-fc9f43",
+      "wysiwyg": true
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+weight: null

@@ -1,0 +1,15 @@
+uuid: 499564eb-4d87-45c8-80bc-448b8c1650ae
+langcode: en
+status: true
+dependencies: {  }
+name: coh_x_large_landscape
+label: 'X Large landscape (1200x800)'
+effects:
+  d7c5f38a-ec7f-4350-9f5a-b2aade97a2f9:
+    uuid: d7c5f38a-ec7f-4350-9f5a-b2aade97a2f9
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 800
+      anchor: center-center

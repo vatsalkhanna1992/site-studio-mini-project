@@ -1,0 +1,7 @@
+uuid: c827378e-d548-4b26-850a-1c7a551412f9
+langcode: en
+status: true
+dependencies: {  }
+name: coh_x_small_landscape
+label: 'X Small landscape (480x320)'
+effects: {  }

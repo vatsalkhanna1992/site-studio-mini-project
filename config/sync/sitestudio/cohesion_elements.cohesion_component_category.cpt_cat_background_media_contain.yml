@@ -1,0 +1,14 @@
+uuid: 2b12aef5-ce04-44f7-8c36-77d01599658b
+langcode: en
+status: true
+dependencies: {  }
+label: 'Background media containers '
+id: cpt_cat_background_media_contain
+json_values: '{}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: false
+selectable: true
+class: category-6
+weight: -7
