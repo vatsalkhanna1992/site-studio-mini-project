@@ -10,7 +10,7 @@ dependencies:
     - cohesion_elements.cohesion_component.cpt_site_footer
     - cohesion_elements.cohesion_component.cpt_site_header
   content:
-    - 'file:file:b8cce27d-8733-4c3f-92d9-4983d321a490'
+    - 'file:file:8909d469-6399-4655-b823-42c2ee0fe5ec'
 label: 'Master template - Boxed'
 id: mstr_tpl_master_template_boxed
 json_values: |
@@ -21,11 +21,12 @@ json_values: |
               "type": "component",
               "title": "Site header",
               "enabled": true,
-              "category": "category-3",
+              "category": "category-15",
               "componentId": "cpt_site_header",
               "componentType": "container",
               "uuid": "9320f557-e16a-4fea-a942-a2f7750002c0",
               "parentUid": "root",
+              "status": {},
               "children": []
           },
           {
@@ -58,11 +59,12 @@ json_values: |
               "type": "component",
               "title": "Site footer",
               "enabled": true,
-              "category": "category-3",
+              "category": "category-15",
               "componentId": "cpt_site_footer",
               "componentType": "container",
               "uuid": "8d72fbe2-3a0f-4639-9613-6d8130f65da3",
               "parentUid": "root",
+              "status": {},
               "children": []
           }
       ],
@@ -232,14 +234,16 @@ json_values: |
                   "items": []
               }
           },
-          "5466873b-5e9a-40c6-951a-6d7a134099ad": {}
+          "5466873b-5e9a-40c6-951a-6d7a134099ad": {},
+          "9320f557-e16a-4fea-a942-a2f7750002c0": {},
+          "8d72fbe2-3a0f-4639-9613-6d8130f65da3": {}
       },
       "model": {
           "9320f557-e16a-4fea-a942-a2f7750002c0": {
               "7a8763cb-a384-46b3-ab55-b30a917df1fb": "header-position--fixed",
               "ccdfb29c-9653-4cf2-97a8-349e2fd98fa6": "coh-style-header-light-theme",
-              "fd8690ce-ff64-46b5-8995-fd737ee47275": "[media-reference:file:b8cce27d-8733-4c3f-92d9-4983d321a490]",
-              "b6d34883-8a15-4507-a299-4ed89592398b": "Placeholder",
+              "fd8690ce-ff64-46b5-8995-fd737ee47275": "[media-reference:file:8909d469-6399-4655-b823-42c2ee0fe5ec]",
+              "b6d34883-8a15-4507-a299-4ed89592398b": "Pizza",
               "15781c68-34fb-470d-aa37-568c76107d4e": 192,
               "e24fd2bd-e87a-41ee-a91a-e5eef8f7d6d7": 96,
               "1e034b8c-7f7a-4505-830c-ed12ac608c6a": "menu-position-desktop--center",
@@ -321,11 +325,11 @@ json_values: |
           },
           "8d72fbe2-3a0f-4639-9613-6d8130f65da3": {
               "f9f11fad-85d9-46d9-adc8-7630861fbdac": {
-                  "text": "<p>53 State street, 10th Floor, Boston, MA 02109, 888-922-7842<\/p>\n",
+                  "text": "<p><strong>\u00a9 2020 I PIZZA<\/strong><\/p>",
                   "textFormat": "cohesion"
               },
               "edd0c3b4-30a5-446c-bdea-adf60e363ff2": {
-                  "text": "<p>Copyright&nbsp;\u00a9 2020 Acquia, Inc. All Rights Reserved.<\/p>\n",
+                  "text": "<p><strong>+ 7900 567 88 67<\/strong><\/p>",
                   "textFormat": "cohesion"
               },
               "5e8437ec-afc1-49fe-8bbc-0323706449a1": "coh-style-footer-light-theme",

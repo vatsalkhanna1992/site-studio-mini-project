@@ -42,22 +42,9 @@ json_values: |
                               "uid": "container",
                               "title": "Container",
                               "status": {
-                                  "collapsed": true,
-                                  "collapsedParents": []
+                                  "collapsed": false
                               },
                               "uuid": "2bbcd819-afe5-42fa-90e1-8ff9579ae2e1",
-                              "parentUid": "container",
-                              "children": []
-                          },
-                          {
-                              "type": "container",
-                              "uid": "container",
-                              "title": "Container",
-                              "status": {
-                                  "collapsed": false,
-                                  "collapsedParents": []
-                              },
-                              "uuid": "74f0c4d9-0821-4956-a23a-ef8cf6f06bb3",
                               "parentUid": "container",
                               "children": [
                                   {
@@ -65,8 +52,7 @@ json_values: |
                                       "uid": "container",
                                       "title": "Container",
                                       "status": {
-                                          "collapsed": true,
-                                          "collapsedParents": []
+                                          "collapsed": false
                                       },
                                       "uuid": "9da3512b-9457-49cf-b8ed-f32bf20b17e3",
                                       "parentUid": "container",
@@ -95,6 +81,18 @@ json_values: |
                                   "collapsed": false,
                                   "collapsedParents": []
                               },
+                              "uuid": "74f0c4d9-0821-4956-a23a-ef8cf6f06bb3",
+                              "parentUid": "container",
+                              "children": []
+                          },
+                          {
+                              "type": "container",
+                              "uid": "container",
+                              "title": "Container",
+                              "status": {
+                                  "collapsed": false,
+                                  "collapsedParents": []
+                              },
                               "uuid": "c781a8fc-83bf-457d-b322-b99f577ffd06",
                               "parentUid": "container",
                               "children": [
@@ -103,11 +101,12 @@ json_values: |
                                       "type": "component",
                                       "title": "Social links",
                                       "enabled": true,
-                                      "category": "category-3",
+                                      "category": "category-15",
                                       "componentId": "cpt_social_links",
                                       "componentType": "list-container",
                                       "uuid": "12d019c0-cd30-4695-b604-4e69f34d1a6c",
                                       "parentUid": "container",
+                                      "status": {},
                                       "children": []
                                   }
                               ]
@@ -2669,6 +2668,67 @@ json_values: |
                                   ]
                               }
                           ]
+                      },
+                      {
+                          "formKey": "font",
+                          "children": [
+                              {
+                                  "formKey": "font-and-color",
+                                  "activeFields": [
+                                      {
+                                          "name": "font-family",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "font-weight",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "color",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "font-sizing-and-alignment",
+                                  "activeFields": [
+                                      {
+                                          "name": "font-size",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "line-height",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "text-align",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "letter-spacing",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "word-spacing",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "text-indent",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              }
+                          ]
                       }
                   ],
                   "selectorType": "topLevel",
@@ -3834,7 +3894,8 @@ json_values: |
                   ],
                   "form": null
               }
-          }
+          },
+          "12d019c0-cd30-4695-b604-4e69f34d1a6c": {}
       },
       "model": {
           "b40fa77a-705b-4fb3-8d67-6d0b2b2da14d": {
@@ -3889,7 +3950,7 @@ json_values: |
           "c670b427-e512-4829-9dac-3c70a54d71b1": {
               "settings": {
                   "title": ".primary-row",
-                  "width": "fluid",
+                  "width": "boxed",
                   "customStyle": [
                       {
                           "customStyle": ""
@@ -3944,7 +4005,7 @@ json_values: |
                           },
                           "flex-container": {
                               "flex-direction": {
-                                  "value": "column"
+                                  "value": "row"
                               }
                           }
                       }
@@ -3996,7 +4057,10 @@ json_values: |
                               "flex-shrink": {
                                   "value": "1"
                               }
-                          }
+                          },
+                          "font-family": {},
+                          "color": {},
+                          "font-size": {}
                       },
                       "ps": {
                           "flex-item": {
@@ -4083,35 +4147,6 @@ json_values: |
                   }
               }
           },
-          "74f0c4d9-0821-4956-a23a-ef8cf6f06bb3": {
-              "settings": {
-                  "title": "Container - center (DO NOT DELETE)",
-                  "width": "fluid",
-                  "customStyle": [
-                      {
-                          "customStyle": ""
-                      }
-                  ],
-                  "settings": {
-                      "width": "fluid",
-                      "customStyle": [
-                          {
-                              "customStyle": ""
-                          }
-                      ]
-                  }
-              },
-              "context-visibility": {
-                  "contextVisibility": {
-                      "condition": "ALL"
-                  }
-              },
-              "styles": {
-                  "settings": {
-                      "element": "container"
-                  }
-              }
-          },
           "9da3512b-9457-49cf-b8ed-f32bf20b17e3": {
               "settings": {
                   "title": ".footer-menu",
@@ -4187,6 +4222,35 @@ json_values: |
                   }
               }
           },
+          "74f0c4d9-0821-4956-a23a-ef8cf6f06bb3": {
+              "settings": {
+                  "title": "Container - center (DO NOT DELETE)",
+                  "width": "fluid",
+                  "customStyle": [
+                      {
+                          "customStyle": ""
+                      }
+                  ],
+                  "settings": {
+                      "width": "fluid",
+                      "customStyle": [
+                          {
+                              "customStyle": ""
+                          }
+                      ]
+                  }
+              },
+              "context-visibility": {
+                  "contextVisibility": {
+                      "condition": "ALL"
+                  }
+              },
+              "styles": {
+                  "settings": {
+                      "element": "container"
+                  }
+              }
+          },
           "c781a8fc-83bf-457d-b322-b99f577ffd06": {
               "settings": {
                   "title": "Container - right (DO NOT DELETE)",
@@ -4234,6 +4298,12 @@ json_values: |
                               "flex-shrink": {
                                   "value": "1"
                               }
+                          },
+                          "font-family": {
+                              "value": "$coh-arial"
+                          },
+                          "font-size": {
+                              "value": "20px"
                           }
                       },
                       "ps": {
@@ -4334,6 +4404,11 @@ json_values: |
               },
               "8fa56baf-1a4e-482a-9631-c69d45e3079b": [
                   {
+                      "b7b48e2f-427c-41dd-8b1f-480be3bce017": "instagram",
+                      "523afe0e-2cab-42d3-a845-53944be67431": "https:\/\/www.instagram.com\/acquia",
+                      "41e4bef4-fb24-4953-9bc1-e7896b7e2507": "Follow us on Instagram"
+                  },
+                  {
                       "b7b48e2f-427c-41dd-8b1f-480be3bce017": "facebook",
                       "523afe0e-2cab-42d3-a845-53944be67431": "https:\/\/www.facebook.com\/acquia",
                       "41e4bef4-fb24-4953-9bc1-e7896b7e2507": "Follow us on Facebook"
@@ -4341,17 +4416,7 @@ json_values: |
                   {
                       "b7b48e2f-427c-41dd-8b1f-480be3bce017": "twitter",
                       "523afe0e-2cab-42d3-a845-53944be67431": "https:\/\/www.twitter.com\/acquia",
-                      "41e4bef4-fb24-4953-9bc1-e7896b7e2507": "Follow us on Twitter"
-                  },
-                  {
-                      "b7b48e2f-427c-41dd-8b1f-480be3bce017": "linkedin",
-                      "523afe0e-2cab-42d3-a845-53944be67431": "https:\/\/www.linkedin.com\/acquia",
-                      "41e4bef4-fb24-4953-9bc1-e7896b7e2507": "Follow us on Linkedin"
-                  },
-                  {
-                      "b7b48e2f-427c-41dd-8b1f-480be3bce017": "pinterest",
-                      "523afe0e-2cab-42d3-a845-53944be67431": "https:\/\/www.pinterest.com\/acquia",
-                      "41e4bef4-fb24-4953-9bc1-e7896b7e2507": "Follow us on Pinterest"
+                      "41e4bef4-fb24-4953-9bc1-e7896b7e2507": "Follow us on Twiiter"
                   }
               ]
           },
@@ -4830,7 +4895,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -4880,7 +4949,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -4989,6 +5062,7 @@ json_values: |
           "edd0c3b4-30a5-446c-bdea-adf60e363ff2": [],
           "12d019c0-cd30-4695-b604-4e69f34d1a6c": []
       },
+      "disabledNodes": [],
       "meta": {
           "fieldHistory": [
               {

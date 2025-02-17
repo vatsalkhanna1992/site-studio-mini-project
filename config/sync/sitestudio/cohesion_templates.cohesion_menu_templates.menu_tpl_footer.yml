@@ -739,7 +739,7 @@ json_values: |
                   "styles": {
                       "xl": {
                           "font-size": {
-                              "value": "14"
+                              "value": "16"
                           },
                           "display": {
                               "value": "flex"
@@ -751,7 +751,9 @@ json_values: |
                           },
                           "height": {
                               "value": "100%"
-                          }
+                          },
+                          "font-family": {},
+                          "color": {}
                       },
                       "ps": {
                           "padding": {

@@ -6,14 +6,14 @@ label: 'Montserrat Regular'
 id: montserrat-regular
 json_values: |
   {
-      "inuse": false,
+      "inuse": true,
       "systemfont": false,
       "link": true,
       "name": "Montserrat Regular",
       "uid": "montserrat-regular",
       "variable": "$coh-font-montserrat-regular",
       "class": ".coh-font-montserrat-regular",
-      "fontStack": "'Montserrat Regular', sans-serif"
+      "fontStack": "'Montserrat', sans-serif"
   }
 json_mapper: '{}'
 last_entity_update: entityupdate_0043

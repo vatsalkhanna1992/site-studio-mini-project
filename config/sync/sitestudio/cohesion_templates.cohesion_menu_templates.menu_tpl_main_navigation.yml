@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - cohesion_website_settings.cohesion_font_stack.montserrat-regular
     - cohesion_website_settings.cohesion_icon_library.icomoon
 label: 'Main navigation'
 id: menu_tpl_main_navigation
@@ -2725,6 +2726,28 @@ json_values: |
                                           "active": false
                                       }
                                   ]
+                              },
+                              {
+                                  "formKey": "font-and-color",
+                                  "activeFields": [
+                                      {
+                                          "name": "font-family",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "font-weight",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "color",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
                               }
                           ]
                       },
@@ -3299,10 +3322,10 @@ json_values: |
                       "sm": {
                           "link_interaction": "toggle-on-click",
                           "animationType": "blind",
-                          "animationDirection": "up",
                           "animationEasing": "easeInOutCubic",
                           "animationTarget": ".menu-level-2-wrapper",
-                          "animationDuration": 300
+                          "animationDuration": 300,
+                          "animationDirection": "up"
                       }
                   },
                   "customStyle": ""
@@ -3319,7 +3342,7 @@ json_values: |
                   "styles": {
                       "xl": {
                           "font-size": {
-                              "value": "14"
+                              "value": "16"
                           },
                           "display": {
                               "value": "flex"
@@ -3339,6 +3362,12 @@ json_values: |
                               "padding-bottom": {
                                   "value": "12"
                               }
+                          },
+                          "font-family": {
+                              "value": "$coh-font-montserrat-regular"
+                          },
+                          "font-weight": {
+                              "value": "700"
                           }
                       },
                       "sm": {
