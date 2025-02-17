@@ -1,0 +1,17 @@
+uuid: 32bcdf4b-adf4-4992-8871-2e706bf1082f
+langcode: en
+status: true
+dependencies: {  }
+id: site_studio
+label: 'Site Studio'
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: database
+folder: ''
+module: {  }
+theme: {  }
+complete_list:
+  - 'cohesion_*'
+partial_list: {  }
