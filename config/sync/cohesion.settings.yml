@@ -2,11 +2,22 @@ _core:
   default_config_hash: gpIMmHdWGMtTf2ZJoO-QHF9bk9ZVESnX-4LD-r3YtTw
 api_build_status: NO_CONTENT
 api_url: 'https://eu-api.sitestudio.acquia.com'
-api_key: umberkouprey-49301
-organization_key: axeleranttechnologiespvtltd-38889
+api_key: tauperaven-13922
+organization_key: axeleranttechnologiespvtltd-85076
 site_id: 9e8d897c-4e0b-40d0-9cdc-2ff858156fa8
 use_dx8: enable
 google_map_api_key: ''
 asset_is_imported: '1'
+animate_on_view_mobile: DISABLED
 elements_permissions: '{}'
 sidebar_view_style: thumbnails
+log_dx8_error: disable
+add_animation_classes: DISABLED
+sync_legacy_visibility: false
+image_browser:
+  config:
+    type: imce_imagebrowser
+    dx8_imce_stream_wrapper: public
+  content:
+    type: imce_imagebrowser
+    dx8_imce_stream_wrapper: public

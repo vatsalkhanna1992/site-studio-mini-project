@@ -1,0 +1,22 @@
+uuid: b1194823-ba6a-4c93-a06c-6a5cf3b7715a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - cohesion_theme
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: cohesion_theme_secondary_local_tasks
+theme: cohesion_theme
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

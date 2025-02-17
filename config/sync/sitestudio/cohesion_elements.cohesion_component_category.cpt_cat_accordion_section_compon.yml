@@ -1,0 +1,14 @@
+uuid: c2de8dae-2263-4a1a-984f-0449398f54ac
+langcode: en
+status: true
+dependencies: {  }
+label: 'Accordion sections'
+id: cpt_cat_accordion_section_compon
+json_values: '{}'
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: false
+selectable: true
+class: category-7
+weight: -4

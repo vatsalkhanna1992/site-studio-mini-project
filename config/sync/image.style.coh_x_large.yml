@@ -1,0 +1,15 @@
+uuid: 57a3664e-c459-4677-96d2-1bad28592cea
+langcode: en
+status: true
+dependencies: {  }
+name: coh_x_large
+label: 'X Large (W1200)'
+effects:
+  23827a0b-c4e4-4d19-8371-da63e8b8bcbd:
+    uuid: 23827a0b-c4e4-4d19-8371-da63e8b8bcbd
+    id: image_scale
+    weight: 1
+    data:
+      width: 1200
+      height: null
+      upscale: false

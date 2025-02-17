@@ -1,0 +1,23 @@
+uuid: 53220699-5296-4914-91d7-2cd67b10af48
+langcode: en
+status: true
+dependencies: {  }
+label: 'Montserrat SemiBold'
+id: montserrat-semibold
+json_values: |
+  {
+      "inuse": false,
+      "systemfont": false,
+      "link": true,
+      "name": "Montserrat SemiBold",
+      "uid": "montserrat-semibold",
+      "variable": "$coh-font-montserrat-semibold",
+      "class": ".coh-font-montserrat-semibold",
+      "fontStack": "'Montserrat SemiBold', sans-serif"
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+source: fontStacks

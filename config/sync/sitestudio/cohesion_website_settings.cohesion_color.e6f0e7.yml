@@ -1,0 +1,27 @@
+uuid: 5e67a41a-adb8-4322-834f-7d37be590116
+langcode: en
+status: true
+dependencies: {  }
+label: E6F0E7
+id: e6f0e7
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#e6f0e7",
+              "rgba": "rgba(230, 240, 231, 1)"
+          }
+      },
+      "uid": "e6f0e7",
+      "name": "E6F0E7",
+      "class": ".coh-color-e6f0e7",
+      "variable": "$coh-color-e6f0e7",
+      "wysiwyg": true
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+weight: 1

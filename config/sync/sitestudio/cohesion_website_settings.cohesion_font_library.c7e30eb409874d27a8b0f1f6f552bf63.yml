@@ -1,0 +1,19 @@
+uuid: 7b419a0d-9666-43bb-a861-0be02b42bf37
+langcode: en
+status: true
+dependencies: {  }
+label: 'Montserrat Regular'
+id: c7e30eb409874d27a8b0f1f6f552bf63
+json_values: |
+  {
+      "type": "import",
+      "name": "Montserrat Regular",
+      "url": "https:\/\/fonts.googleapis.com\/css?family=Montserrat:400",
+      "uid": "c7e30eb409874d27a8b0f1f6f552bf63"
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+source: fonts

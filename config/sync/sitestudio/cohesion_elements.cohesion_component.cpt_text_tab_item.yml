@@ -1,0 +1,1248 @@
+uuid: 30b61492-75ed-4793-9bd5-2f55b7c9f3a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_custom_styles.cohesion_custom_style.7f4f36dd
+    - cohesion_custom_styles.cohesion_custom_style.a56b4c76
+    - cohesion_custom_styles.cohesion_custom_style.b03f97e5
+    - cohesion_elements.cohesion_component_category.cpt_cat_tab_section_components
+  content:
+    - 'file:file:62d3498d-d54c-4f65-a81b-63d6f793fb4a'
+label: 'Text tab item'
+id: cpt_text_tab_item
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "container",
+              "uid": "accordion-tabs-item",
+              "title": "Accordion tabs item",
+              "status": {
+                  "collapsed": true
+              },
+              "iconColor": "interactive",
+              "uuid": "28c52016-fbdc-4598-913d-a17d8383b250",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "type": "item",
+                      "uid": "wysiwyg",
+                      "title": "WYSIWYG",
+                      "status": {
+                          "collapsed": true
+                      },
+                      "uuid": "edfcad5a-e9ec-43ef-bb4c-120465d177ff",
+                      "parentUid": "accordion-tabs-item",
+                      "children": []
+                  }
+              ]
+          }
+      ],
+      "componentForm": [
+          {
+              "type": "form-container",
+              "uid": "form-tab-container",
+              "title": "Tab container",
+              "status": {
+                  "collapsed": false
+              },
+              "options": {
+                  "formBuilder": true
+              },
+              "uuid": "cf58a7c0-ae0b-4c93-bc91-96e0446eef33",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "type": "form-container",
+                      "uid": "form-tab-item",
+                      "title": "Tab item",
+                      "status": {
+                          "collapsed": true
+                      },
+                      "options": {
+                          "formBuilder": true
+                      },
+                      "uuid": "cf8ea8b2-4365-4fde-8e00-e12aba0b534a",
+                      "parentUid": "form-tab-container",
+                      "children": [
+                          {
+                              "type": "form-container",
+                              "uid": "form-section",
+                              "title": "Field group",
+                              "status": {
+                                  "collapsed": true
+                              },
+                              "options": {
+                                  "formBuilder": true
+                              },
+                              "iconColor": "formLayoutAlt",
+                              "uuid": "136a8c85-fc4e-444f-9896-c23327c6db53",
+                              "parentUid": "form-tab-item",
+                              "children": [
+                                  {
+                                      "type": "form-field",
+                                      "uid": "form-input",
+                                      "title": "Input",
+                                      "translate": true,
+                                      "status": {
+                                          "collapsed": false
+                                      },
+                                      "iconColor": "formField",
+                                      "uuid": "c5e4f346-8b78-4214-8793-883bf58b425c",
+                                      "parentUid": "form-section",
+                                      "children": []
+                                  }
+                              ]
+                          },
+                          {
+                              "type": "form-container",
+                              "uid": "form-section",
+                              "title": "Field group",
+                              "status": {
+                                  "collapsed": true
+                              },
+                              "options": {
+                                  "formBuilder": true
+                              },
+                              "uuid": "70a5ab87-71f4-401d-96f9-573326bddfbf",
+                              "parentUid": "form-tab-item",
+                              "children": [
+                                  {
+                                      "type": "form-field",
+                                      "uid": "form-wysiwyg",
+                                      "title": "WYSIWYG",
+                                      "translate": true,
+                                      "status": {
+                                          "collapsed": false
+                                      },
+                                      "uuid": "685d6307-4410-41d2-81b9-881a5d4904f7",
+                                      "parentUid": "form-section",
+                                      "children": []
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "type": "form-container",
+                      "uid": "form-tab-item",
+                      "title": "Tab item",
+                      "status": {
+                          "collapsed": true
+                      },
+                      "options": {
+                          "formBuilder": true
+                      },
+                      "uuid": "459de091-3aae-4d0e-b67b-24268cd7353e",
+                      "parentUid": "form-tab-container",
+                      "children": [
+                          {
+                              "type": "form-container",
+                              "uid": "form-section",
+                              "title": "Field group",
+                              "status": {
+                                  "collapsed": true
+                              },
+                              "options": {
+                                  "formBuilder": true
+                              },
+                              "uuid": "e38e7b9d-c1b0-43d3-8580-577afd4ed9ed",
+                              "parentUid": "form-tab-item",
+                              "children": [
+                                  {
+                                      "type": "form-field",
+                                      "uid": "form-select",
+                                      "title": "Select",
+                                      "status": {
+                                          "collapsed": false
+                                      },
+                                      "uuid": "660fd038-e472-4fe9-aeea-7b1b0d6c8e12",
+                                      "parentUid": "form-section",
+                                      "children": []
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "type": "form-container",
+                      "uid": "form-tab-item",
+                      "title": "Tab item",
+                      "status": {
+                          "collapsed": true
+                      },
+                      "options": {
+                          "formBuilder": true
+                      },
+                      "uuid": "53a3a31e-3d73-4b70-b9c6-9639cd8cbcb8",
+                      "parentUid": "form-tab-container",
+                      "children": [
+                          {
+                              "type": "form-help",
+                              "uid": "form-helptext",
+                              "title": "Help text",
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "uuid": "b05b17af-aaa3-43aa-a79d-556bcef225da",
+                              "parentUid": "form-tab-item",
+                              "children": []
+                          }
+                      ]
+                  }
+              ]
+          }
+      ],
+      "mapper": {
+          "edfcad5a-e9ec-43ef-bb4c-120465d177ff": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "wysiwyg-settings",
+                          "children": [
+                              {
+                                  "formKey": "wysiwyg-editor",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "content",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "wysiwyg-style",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": []
+              }
+          },
+          "e38e7b9d-c1b0-43d3-8580-577afd4ed9ed": {},
+          "660fd038-e472-4fe9-aeea-7b1b0d6c8e12": {},
+          "28c52016-fbdc-4598-913d-a17d8383b250": {}
+      },
+      "model": {
+          "28c52016-fbdc-4598-913d-a17d8383b250": {
+              "settings": {
+                  "title": "Accordion tabs item",
+                  "accordionTabElement": "div",
+                  "settings": {
+                      "accordionTabElement": "div",
+                      "accordionStyle": {
+                          "customStyle": ""
+                      },
+                      "tabStyle": {
+                          "customStyle": ""
+                      },
+                      "title": "[field.c5e4f346-8b78-4214-8793-883bf58b425c]"
+                  },
+                  "accordionStyle": {
+                      "customStyle": ""
+                  },
+                  "tabStyle": {
+                      "customStyle": ""
+                  }
+              },
+              "context-visibility": {
+                  "contextVisibility": {
+                      "condition": "ALL"
+                  }
+              },
+              "styles": {
+                  "settings": {
+                      "element": "accordion-tabs-item"
+                  }
+              }
+          },
+          "edfcad5a-e9ec-43ef-bb4c-120465d177ff": {
+              "settings": {
+                  "title": "WYSIWYG",
+                  "content": "[field.685d6307-4410-41d2-81b9-881a5d4904f7]",
+                  "customStyle": [
+                      {
+                          "customStyle": "[field.660fd038-e472-4fe9-aeea-7b1b0d6c8e12]"
+                      },
+                      {
+                          "customStyle": "coh-style-padding-top-bottom-small"
+                      }
+                  ]
+              },
+              "context-visibility": {
+                  "contextVisibility": {
+                      "condition": "ALL"
+                  }
+              },
+              "styles": {
+                  "settings": {
+                      "element": "wysiwyg"
+                  }
+              }
+          },
+          "cf58a7c0-ae0b-4c93-bc91-96e0446eef33": {
+              "settings": {
+                  "type": "cohTabContainer",
+                  "title": "Tab container",
+                  "responsiveMode": true
+              }
+          },
+          "cf8ea8b2-4365-4fde-8e00-e12aba0b534a": {
+              "settings": {
+                  "title": "Content",
+                  "type": "cohTabItem",
+                  "breakpointIcon": ""
+              },
+              "contextVisibility": {
+                  "condition": "ALL"
+              }
+          },
+          "136a8c85-fc4e-444f-9896-c23327c6db53": {
+              "settings": {
+                  "title": "Navigation tab",
+                  "type": "cohSection",
+                  "hideRowHeading": 0,
+                  "removePadding": 0,
+                  "columnCount": "1",
+                  "breakpointIcon": "",
+                  "breakpoints": false,
+                  "propertiesMenu": false,
+                  "disableScrollbar": true,
+                  "disableEllipsisMenu": true,
+                  "isOpen": true
+              },
+              "contextVisibility": {
+                  "condition": "ALL"
+              }
+          },
+          "c5e4f346-8b78-4214-8793-883bf58b425c": {
+              "settings": {
+                  "title": "Navigation tab label",
+                  "schema": {
+                      "type": "string",
+                      "escape": true
+                  },
+                  "machineName": "navigation-tab-label",
+                  "tooltipPlacement": "auto right",
+                  "validationMessage": {
+                      "302": "Please provide a navigation label"
+                  }
+              },
+              "contextVisibility": {
+                  "condition": "ALL"
+              },
+              "model": {
+                  "value": "Navigation label"
+              }
+          },
+          "70a5ab87-71f4-401d-96f9-573326bddfbf": {
+              "settings": {
+                  "title": "Text",
+                  "type": "cohSection",
+                  "hideRowHeading": 0,
+                  "removePadding": 0,
+                  "columnCount": "1",
+                  "breakpointIcon": "",
+                  "breakpoints": false,
+                  "propertiesMenu": false,
+                  "disableScrollbar": true,
+                  "disableEllipsisMenu": true,
+                  "isOpen": true
+              },
+              "contextVisibility": {
+                  "condition": "ALL"
+              }
+          },
+          "685d6307-4410-41d2-81b9-881a5d4904f7": {
+              "settings": {
+                  "title": "Text",
+                  "type": "cohWysiwyg",
+                  "schema": {
+                      "type": "object"
+                  },
+                  "machineName": "text",
+                  "tooltipPlacement": "auto right"
+              },
+              "contextVisibility": {
+                  "condition": "ALL"
+              },
+              "model": {
+                  "value": {
+                      "text": "<p>This is placeholder text. It's here by mistake and we'd appreciate it if you could email us with a link to the page you found it on.&nbsp;This is placeholder text. It's here by mistake and we'd appreciate it if you could email us with a link to the page you found it on.&nbsp;This is placeholder text. It's here by mistake and we'd appreciate it if you could email us with a link to the page you found it on.<\/p>\n\n<p>This is placeholder text. It's here by mistake and we'd appreciate it if you could email us with a link to the page you found it on.&nbsp;This is placeholder text. It's here by mistake and we'd appreciate it if you could email us with a link to the page you found it on.&nbsp;This is placeholder text. It's here by mistake and we'd appreciate it if you could email us with a link to the page you found it on.<\/p>\n",
+                      "textFormat": "cohesion"
+                  }
+              }
+          },
+          "459de091-3aae-4d0e-b67b-24268cd7353e": {
+              "settings": {
+                  "title": "Layout and style",
+                  "type": "cohTabItem",
+                  "breakpointIcon": ""
+              },
+              "contextVisibility": {
+                  "condition": "ALL"
+              }
+          },
+          "e38e7b9d-c1b0-43d3-8580-577afd4ed9ed": {
+              "settings": {
+                  "title": "Section color",
+                  "type": "cohSection",
+                  "hideRowHeading": 0,
+                  "columnCount": "auto",
+                  "breakpoints": false,
+                  "propertiesMenu": false,
+                  "disableScrollbar": true,
+                  "disableEllipsisMenu": true,
+                  "isOpen": true,
+                  "removePadding": 0,
+                  "breakpointIcon": ""
+              },
+              "contextVisibility": {
+                  "condition": "ALL"
+              }
+          },
+          "660fd038-e472-4fe9-aeea-7b1b0d6c8e12": {
+              "settings": {
+                  "title": "Text color",
+                  "type": "cohSelect",
+                  "selectType": "custom",
+                  "schema": {
+                      "type": "string"
+                  },
+                  "options": [
+                      {
+                          "label": "Dark text",
+                          "value": "coh-style-text-color-light-background"
+                      },
+                      {
+                          "label": "Light text",
+                          "value": "coh-style-text-color-dark-background"
+                      }
+                  ],
+                  "tooltipPlacement": "auto right",
+                  "machineName": "text-color",
+                  "showCondition": "!([field.a94340d5-5232-4e35-9249-a6f54a14ceed] tags include 'Dark' OR [field.a94340d5-5232-4e35-9249-a6f54a14ceed] tags include 'Light' OR [field.a94340d5-5232-4e35-9249-a6f54a14ceed] tags include 'Color')"
+              },
+              "contextVisibility": {
+                  "condition": "ALL"
+              },
+              "model": {
+                  "value": "coh-style-text-color-light-background"
+              }
+          },
+          "53a3a31e-3d73-4b70-b9c6-9639cd8cbcb8": {
+              "settings": {
+                  "title": "Help",
+                  "type": "cohTabItem",
+                  "breakpointIcon": ""
+              },
+              "contextVisibility": {
+                  "condition": "ALL"
+              }
+          },
+          "b05b17af-aaa3-43aa-a79d-556bcef225da": {
+              "settings": {
+                  "title": "Help text",
+                  "type": "cohHelpText",
+                  "options": {
+                      "showClose": false,
+                      "helpType": "help",
+                      "helpText": "# Using the 'Text tab item' component\n- Use this component to add a tab item to a tab container component. The item allows you to provide a navigation label and a block of text. \n\n# Navigation tab\n- **Navigation tab label -** Enter a label for the tab navigation item.\n\n# Text\n- **Text -** Enter text in the text editor for the accordion item.\n\n# Text color\n- **Text color -** Set the color of the text. Select a color that has enough contrast with the background color of the section."
+                  }
+              },
+              "contextVisibility": {
+                  "condition": "ALL"
+              }
+          }
+      },
+      "previewModel": {
+          "53a3a31e-3d73-4b70-b9c6-9639cd8cbcb8": {},
+          "e38e7b9d-c1b0-43d3-8580-577afd4ed9ed": {},
+          "459de091-3aae-4d0e-b67b-24268cd7353e": {},
+          "f45e99fc-8385-466b-8c58-78fb8cfb5eba": {},
+          "909ff558-9b60-4026-a941-74f4da7d24c4": {},
+          "fecc7ace-0f62-4cb0-9317-e640cd5bc435": {},
+          "218e63ee-f3d1-49c3-8c75-0036a4c490ad": {},
+          "8970bfbc-4c99-40ca-890b-426a85246302": {},
+          "b05b17af-aaa3-43aa-a79d-556bcef225da": {},
+          "cf8ea8b2-4365-4fde-8e00-e12aba0b534a": {},
+          "4d18b9d3-c2a6-4171-b042-e77c21423afe": {},
+          "70a5ab87-71f4-401d-96f9-573326bddfbf": {},
+          "685d6307-4410-41d2-81b9-881a5d4904f7": {},
+          "edfcad5a-e9ec-43ef-bb4c-120465d177ff": {
+              "settings": {
+                  "content": {
+                      "text": "",
+                      "textFormat": "cohesion"
+                  },
+                  "customStyle": [
+                      {
+                          "customStyle": ""
+                      }
+                  ]
+              }
+          },
+          "660fd038-e472-4fe9-aeea-7b1b0d6c8e12": {},
+          "136a8c85-fc4e-444f-9896-c23327c6db53": {},
+          "c5e4f346-8b78-4214-8793-883bf58b425c": {},
+          "28c52016-fbdc-4598-913d-a17d8383b250": {}
+      },
+      "variableFields": {
+          "53a3a31e-3d73-4b70-b9c6-9639cd8cbcb8": [],
+          "e38e7b9d-c1b0-43d3-8580-577afd4ed9ed": [],
+          "459de091-3aae-4d0e-b67b-24268cd7353e": [],
+          "f45e99fc-8385-466b-8c58-78fb8cfb5eba": [],
+          "909ff558-9b60-4026-a941-74f4da7d24c4": [],
+          "fecc7ace-0f62-4cb0-9317-e640cd5bc435": [],
+          "218e63ee-f3d1-49c3-8c75-0036a4c490ad": [],
+          "8970bfbc-4c99-40ca-890b-426a85246302": [],
+          "b05b17af-aaa3-43aa-a79d-556bcef225da": [],
+          "cf8ea8b2-4365-4fde-8e00-e12aba0b534a": [],
+          "4d18b9d3-c2a6-4171-b042-e77c21423afe": [],
+          "70a5ab87-71f4-401d-96f9-573326bddfbf": [],
+          "685d6307-4410-41d2-81b9-881a5d4904f7": [],
+          "edfcad5a-e9ec-43ef-bb4c-120465d177ff": [
+              "settings.content",
+              "settings.customStyle.0.customStyle"
+          ],
+          "660fd038-e472-4fe9-aeea-7b1b0d6c8e12": [],
+          "136a8c85-fc4e-444f-9896-c23327c6db53": [],
+          "c5e4f346-8b78-4214-8793-883bf58b425c": [],
+          "28c52016-fbdc-4598-913d-a17d8383b250": [
+              "settings.settings.title"
+          ]
+      },
+      "disabledNodes": [],
+      "meta": {
+          "fieldHistory": [
+              {
+                  "uuid": "660fd038-e472-4fe9-aeea-7b1b0d6c8e12",
+                  "type": "form-select",
+                  "machineName": "text-color"
+              },
+              {
+                  "uuid": "685d6307-4410-41d2-81b9-881a5d4904f7",
+                  "type": "form-wysiwyg",
+                  "machineName": "text"
+              },
+              {
+                  "uuid": "c5e4f346-8b78-4214-8793-883bf58b425c",
+                  "type": "form-input",
+                  "machineName": "navigation-tab-label"
+              },
+              {
+                  "uuid": "6d8aa079-1862-43f9-a466-abc4c3e23705",
+                  "type": "form-image",
+                  "machineName": "background-image"
+              },
+              {
+                  "uuid": "69768fef-d383-450c-aed4-7fdf9195d129",
+                  "type": "form-input-hidden",
+                  "machineName": "conditional-text-color-colored-background"
+              },
+              {
+                  "uuid": "39f59089-ce0d-480a-a9ad-c088ef891c7d",
+                  "type": "form-input-hidden",
+                  "machineName": "conditional-text-color-light-background"
+              },
+              {
+                  "uuid": "ee991c52-5b2c-4571-89c5-90967549b64f",
+                  "type": "form-input-hidden",
+                  "machineName": "conditional-text-color-dark-background"
+              },
+              {
+                  "uuid": "a94340d5-5232-4e35-9249-a6f54a14ceed",
+                  "type": "form-colorpicker",
+                  "machineName": "background-color"
+              },
+              {
+                  "uuid": "fa40007c-69b0-49f0-8830-086f769fee68",
+                  "type": "form-select",
+                  "machineName": "padding-top-bottom"
+              },
+              {
+                  "uuid": "074d9198-831b-43d1-9ccc-f806ce76ae90",
+                  "type": "form-select",
+                  "machineName": "content-position"
+              },
+              {
+                  "uuid": "a9781964-1b76-412f-9501-227350e08ae2",
+                  "type": "form-select",
+                  "machineName": "text-width"
+              },
+              {
+                  "uuid": "c1ca2fc1-7e07-4b1a-b883-e68604c5c506",
+                  "type": "form-select",
+                  "machineName": "desktop-order"
+              },
+              {
+                  "uuid": "d08916f9-0252-4e8b-a700-8332b922217d",
+                  "type": "form-wysiwyg",
+                  "machineName": "text-wide"
+              },
+              {
+                  "uuid": "cdc32d51-6d9f-44ee-9c51-6c7bceaffc2e",
+                  "type": "form-select",
+                  "machineName": "link-style"
+              },
+              {
+                  "uuid": "bebf8453-ecbc-4517-b7a6-70d5aeb46d72",
+                  "type": "form-link",
+                  "machineName": "link-to-page"
+              },
+              {
+                  "uuid": "7ff0aa2b-b037-439d-9b22-070077c3dfd6",
+                  "type": "form-input",
+                  "machineName": "link-text"
+              },
+              {
+                  "uuid": "eccf9afc-ca9b-4526-9986-8653e110354a",
+                  "type": "form-field-repeater",
+                  "machineName": "field-repeater"
+              },
+              {
+                  "uuid": "c054d1fe-5652-4c28-abcf-e64e7dac58a6",
+                  "type": "form-select",
+                  "machineName": "heading-size-override"
+              },
+              {
+                  "uuid": "fb3d362a-23a4-4516-90a5-fe5e48543c67",
+                  "type": "form-select",
+                  "machineName": "heading-element"
+              },
+              {
+                  "uuid": "d02ca584-dcb2-43fd-ba7d-17971c7a0a3f",
+                  "type": "form-textarea",
+                  "machineName": "heading"
+              },
+              {
+                  "uuid": "b5460931-69d7-4204-a519-d87f1e542501",
+                  "type": "form-entity-browser",
+                  "machineName": "media"
+              },
+              {
+                  "uuid": "f3a4773e-088d-4147-a90a-95ef4d81dc0a",
+                  "type": "form-select",
+                  "machineName": "columns-phone"
+              },
+              {
+                  "uuid": "bf5272d7-a723-4a17-9eb0-19a6d9c12ffe",
+                  "type": "form-select",
+                  "machineName": "columns-tablet"
+              },
+              {
+                  "uuid": "edde52e1-0e15-4c6f-a75a-860956a45923",
+                  "type": "form-select",
+                  "machineName": "columns-desktop"
+              },
+              {
+                  "uuid": "25595aca-b1f9-4e8f-a46b-ad8062881183",
+                  "type": "form-select",
+                  "machineName": "phone-order"
+              },
+              {
+                  "uuid": "1bce23a9-00fc-499e-af0a-c3ea3d07bbea",
+                  "type": "form-select",
+                  "machineName": "tablet-order"
+              },
+              {
+                  "machineName": "conditional-text-color-colored-background"
+              },
+              {
+                  "uuid": "a9f49157-8b25-4e0a-9487-ac59236d4ef5",
+                  "type": "form-image",
+                  "machineName": "phone-image"
+              },
+              {
+                  "uuid": "9cc82a76-332b-4e0f-9d9a-97454497e136",
+                  "type": "form-checkbox-toggle",
+                  "machineName": "alternative-image-for-phone"
+              },
+              {
+                  "uuid": "909ff558-9b60-4026-a941-74f4da7d24c4",
+                  "type": "form-select",
+                  "machineName": "column-1-display-order-tablet"
+              },
+              {
+                  "uuid": "f45e99fc-8385-466b-8c58-78fb8cfb5eba",
+                  "type": "form-select",
+                  "machineName": "column-1-display-order-desktop"
+              },
+              {
+                  "uuid": "b6308a1b-e045-4fa5-a276-b1eafa98e51f",
+                  "type": "form-select",
+                  "machineName": "column-2-vertical-alignment-phone"
+              },
+              {
+                  "uuid": "f03823de-dbc3-4b28-8320-f6cad5488a4b",
+                  "type": "form-select",
+                  "machineName": "column-2-display-order-phone"
+              },
+              {
+                  "uuid": "d3fcb481-7d02-4a6f-b58c-a16a38ab40ea",
+                  "type": "form-select",
+                  "machineName": "column-2-width-phone"
+              },
+              {
+                  "uuid": "0168c63d-026b-47ec-85e8-aeefc861b583",
+                  "type": "form-select",
+                  "machineName": "column-1-vertical-alignment-phone"
+              },
+              {
+                  "uuid": "dd1482c7-f2fe-47bc-bc14-a5b6f7ae3776",
+                  "type": "form-select",
+                  "machineName": "column-1-display-order-phone"
+              },
+              {
+                  "uuid": "9ac060b5-82b4-42b0-b0cf-b4173f1b13e4",
+                  "type": "form-select",
+                  "machineName": "column-1-width-phone"
+              },
+              {
+                  "uuid": "19931a38-dc8d-4114-b5cf-8d03b837d022",
+                  "type": "form-select",
+                  "machineName": "phone-height"
+              },
+              {
+                  "uuid": "a683a993-6729-4f93-a1ec-9fa4f04cf4eb",
+                  "type": "form-select",
+                  "machineName": "column-2-offset-column-right-tablet"
+              },
+              {
+                  "uuid": "2b23ad78-ceb0-4696-ad70-6e4aafbddccc",
+                  "type": "form-select",
+                  "machineName": "column-2-offset-column-left-tablet"
+              },
+              {
+                  "uuid": "23cd907e-64e9-47d0-8644-b5ba9403ac0a",
+                  "type": "form-select",
+                  "machineName": "column-2-vertical-alignment-tablet"
+              },
+              {
+                  "uuid": "f5ebb70c-dbf4-41d9-acea-6eda67f96f0f",
+                  "type": "form-select",
+                  "machineName": "column-2-display-order-tablet"
+              },
+              {
+                  "uuid": "2faa74e3-080f-4d61-8e3a-7f3a04be982d",
+                  "type": "form-select",
+                  "machineName": "column-2-width-tablet"
+              },
+              {
+                  "uuid": "9c2502f4-f0d9-4750-846a-4acc4ac0c6bd",
+                  "type": "form-select",
+                  "machineName": "column-1-offset-column-right-tablet"
+              },
+              {
+                  "uuid": "95529488-902f-4c28-9aeb-925f810b8bcd",
+                  "type": "form-select",
+                  "machineName": "column-1-offset-column-left-tablet"
+              },
+              {
+                  "uuid": "4352ce24-bb64-43cc-b182-421ed3a6fb5b",
+                  "type": "form-select",
+                  "machineName": "column-1-vertical-alignment-tablet"
+              },
+              {
+                  "uuid": "8585d3de-60cc-401a-acb2-51dce0b85f1e",
+                  "type": "form-select",
+                  "machineName": "column-1-width-tablet"
+              },
+              {
+                  "uuid": "419893b5-5f94-4ee2-8f8f-0fd7adbb7067",
+                  "type": "form-select",
+                  "machineName": "tablet-height"
+              },
+              {
+                  "uuid": "f05511b0-86e6-4b51-88bc-bff5d50c3ee6",
+                  "type": "form-select",
+                  "machineName": "column-2-offset-column-right-desktop"
+              },
+              {
+                  "uuid": "5bcc8af9-b4f7-44f8-b555-0aa97581d6da",
+                  "type": "form-select",
+                  "machineName": "column-2-offset-column-left-desktop"
+              },
+              {
+                  "uuid": "7c3c3941-6461-43fe-b357-31a20fa63d11",
+                  "type": "form-select",
+                  "machineName": "column-2-vertical-alignment-desktop"
+              },
+              {
+                  "uuid": "eed40290-b0ce-40ab-9170-64da815b1f4f",
+                  "type": "form-select",
+                  "machineName": "column-2-display-order-desktop"
+              },
+              {
+                  "uuid": "5859656f-76c7-43cd-ba6e-5078f924eeec",
+                  "type": "form-select",
+                  "machineName": "column-2-width-desktop"
+              },
+              {
+                  "uuid": "fd8cf98c-fce9-4c77-8c6b-fa572fb7aa62",
+                  "type": "form-select",
+                  "machineName": "column-1-offset-column-right-desktop"
+              },
+              {
+                  "uuid": "79d42628-5dfb-4526-b8bb-794e91756cf3",
+                  "type": "form-select",
+                  "machineName": "column-1-offset-column-left-desktop"
+              },
+              {
+                  "uuid": "e05453ff-607d-4868-a3cb-8b6253da93e7",
+                  "type": "form-select",
+                  "machineName": "column-1-vertical-alignment-desktop"
+              },
+              {
+                  "uuid": "c0a80b1a-b480-4020-9ddc-5c214cf1a2f6",
+                  "type": "form-select",
+                  "machineName": "column-1-width-desktop"
+              },
+              {
+                  "uuid": "4238e8c4-6bc7-4211-802b-c317288f130f",
+                  "type": "form-select",
+                  "machineName": "desktop-height"
+              },
+              {
+                  "uuid": "544c6d30-af76-454c-bbc2-f9189fd384e9",
+                  "type": "form-select",
+                  "machineName": "gutters-between-columns"
+              },
+              {
+                  "uuid": "644b1658-524a-4a4f-8f1a-8b821e7d0c15",
+                  "type": "form-select",
+                  "machineName": "justify-columns"
+              },
+              {
+                  "uuid": "189f0059-3153-404b-9767-ef383a6c7f91",
+                  "type": "form-select",
+                  "machineName": "width"
+              },
+              {
+                  "uuid": "0ccc6b74-c0ed-43a1-a6a4-9b93f5595fff",
+                  "type": "form-select",
+                  "machineName": "column-2-offset-column-desktop"
+              },
+              {
+                  "uuid": "33eead93-b3f7-439b-8b25-a2f89aa70401",
+                  "type": "form-select",
+                  "machineName": "column-1-offset-column-desktop"
+              },
+              {
+                  "uuid": "f5bb9590-8ef9-4516-82b5-a008c2643a5c",
+                  "type": "form-select",
+                  "machineName": "column-2-offset-right-amount-tablet"
+              },
+              {
+                  "uuid": "9e0698b2-bf3b-415b-9964-6eea9fa47068",
+                  "type": "form-select",
+                  "machineName": "column-2-offset-left-amount-tablet"
+              },
+              {
+                  "uuid": "95a825d1-eab7-42f3-8127-ac68233957f1",
+                  "type": "form-select",
+                  "machineName": "column-2-offset-column-tablet"
+              },
+              {
+                  "uuid": "82d531f2-2462-4257-bf6e-cccb25568103",
+                  "type": "form-select",
+                  "machineName": "column-1-offset-right-amount-tablet"
+              },
+              {
+                  "uuid": "2061ac62-3727-4557-8662-6806dc19ab5c",
+                  "type": "form-select",
+                  "machineName": "column-1-offset-left-amount-tablet"
+              },
+              {
+                  "uuid": "97d111be-12fe-4f19-abab-5fd995b9203e",
+                  "type": "form-select",
+                  "machineName": "column-1-offset-column-tablet"
+              },
+              {
+                  "uuid": "9cd8aca8-53b5-46df-9378-8f9feb4238ad",
+                  "type": "form-select",
+                  "machineName": "scale-vertically-from-phone"
+              },
+              {
+                  "uuid": "6e821acd-b3c1-436a-84d4-f5761930d04f",
+                  "type": "form-select",
+                  "machineName": "scale-horizontally-from-phone"
+              },
+              {
+                  "uuid": "7233d8d5-b9be-4c0e-a71c-92de36355030",
+                  "type": "form-select",
+                  "machineName": "scale-vertically-from-tablet"
+              },
+              {
+                  "uuid": "37a226ab-da68-4956-8a17-0786181fe630",
+                  "type": "form-select",
+                  "machineName": "scale-horizontally-from-tablet"
+              },
+              {
+                  "uuid": "2a361c9f-c029-4f1b-940f-6acd31a8e4f8",
+                  "type": "form-select",
+                  "machineName": "scale-vertically-from-desktop"
+              },
+              {
+                  "uuid": "6f84a51a-27c6-4316-97c5-ed46e9612783",
+                  "type": "form-select",
+                  "machineName": "scale-horizontally-from-desktop"
+              },
+              {
+                  "uuid": "902578d1-5827-4341-bae6-876e5cc52e11",
+                  "type": "form-checkbox-toggle",
+                  "machineName": "advanced-image-positioning"
+              },
+              {
+                  "uuid": "a13b6b1e-4d59-46cc-ab7d-fcc11d9dcceb",
+                  "type": "form-select",
+                  "machineName": "match-heights-of-columns-phone"
+              },
+              {
+                  "uuid": "94bc8dce-5150-4a7d-9a99-d9f1f6f0e930",
+                  "type": "form-select",
+                  "machineName": "match-heights-of-columns-tablet"
+              },
+              {
+                  "uuid": "07bc5fbd-2bfd-49d1-b309-2c58dcfccad9",
+                  "type": "form-select",
+                  "machineName": "match-heights-of-columns-desktop"
+              },
+              {
+                  "uuid": "af7bcae1-a417-404d-a081-85b7f783c360",
+                  "type": "form-select",
+                  "machineName": "column-2-space-below-phone"
+              },
+              {
+                  "uuid": "6b1ca802-b906-44be-8722-6cfc64a6e226",
+                  "type": "form-select",
+                  "machineName": "column-1-space-below-phone"
+              },
+              {
+                  "uuid": "688024fc-111f-4d01-976a-62dde227e067",
+                  "type": "form-select",
+                  "machineName": "column-2-space-below-tablet"
+              },
+              {
+                  "uuid": "ae6ba6e0-4da0-4643-8368-2e2b22e71e1c",
+                  "type": "form-select",
+                  "machineName": "column-1-space-below-tablet"
+              },
+              {
+                  "uuid": "49f04e83-0b6c-471b-8911-6af87943962d",
+                  "type": "form-select",
+                  "machineName": "column-2-space-below-desktop"
+              },
+              {
+                  "uuid": "4195c7c1-647b-4ea9-8da6-06c88b06c5e0",
+                  "type": "form-select",
+                  "machineName": "column-1-space-below-desktop"
+              },
+              {
+                  "uuid": "fc236408-420f-46a3-909b-58096399d126",
+                  "type": "form-select",
+                  "machineName": "column-2-height-phone"
+              },
+              {
+                  "uuid": "dbc63a11-0604-41c3-affe-20397f565cdb",
+                  "type": "form-select",
+                  "machineName": "column-1-height-phone"
+              },
+              {
+                  "uuid": "4a68ab1d-af10-48cd-99ef-de55b92065c6",
+                  "type": "form-select",
+                  "machineName": "column-2-height-tablet"
+              },
+              {
+                  "uuid": "2504c8c1-31f6-479b-8fe1-600933f80c8e",
+                  "type": "form-select",
+                  "machineName": "column-1-height-tablet"
+              },
+              {
+                  "uuid": "26edcee6-5ecd-4da7-b354-053bc5f55aec",
+                  "type": "form-select",
+                  "machineName": "column-2-height-desktop"
+              },
+              {
+                  "uuid": "fa7b2278-2330-4281-b440-da36d3433f5e",
+                  "type": "form-select",
+                  "machineName": "column-1-height-desktop"
+              },
+              {
+                  "uuid": "763653d1-0b4a-471a-bc78-551c4f4def64",
+                  "type": "form-input-hidden",
+                  "machineName": "column-2-wrapper-conditional-height-phone"
+              },
+              {
+                  "uuid": "6b234d56-38b4-42b1-8b1d-3d7aa391e8b9",
+                  "type": "form-input-hidden",
+                  "machineName": "column-1-wrapper-conditional-height-phone"
+              },
+              {
+                  "uuid": "582f849c-c43b-44dd-92d4-a84bf6ab2d53",
+                  "type": "form-input-hidden",
+                  "machineName": "column-2-wrapper-conditional-height-tablet"
+              },
+              {
+                  "uuid": "34c15fd7-f608-418e-b873-ebe83fb9faaa",
+                  "type": "form-input-hidden",
+                  "machineName": "column-1-wrapper-conditional-height-tablet"
+              },
+              {
+                  "uuid": "a5b133f3-9bf5-46d3-aeb5-6a4a01b2066a",
+                  "type": "form-input-hidden",
+                  "machineName": "column-2-wrapper-conditional-height-desktop"
+              },
+              {
+                  "uuid": "eada58d5-7ffd-45ab-a400-c1431eae8ba0",
+                  "type": "form-input-hidden",
+                  "machineName": "column-1-wrapper-conditional-height-desktop"
+              },
+              {
+                  "uuid": "8dfa2964-578f-4aa3-8ee2-4cd3f0fcbbf4",
+                  "type": "form-checkbox-toggle",
+                  "machineName": "reverse-order-phone"
+              },
+              {
+                  "uuid": "7557d9de-a66e-4a52-8a1f-fdc74eb97157",
+                  "type": "form-checkbox-toggle",
+                  "machineName": "reverse-order-tablet"
+              },
+              {
+                  "uuid": "4c66de77-b425-40ff-82a5-2e676072085e",
+                  "type": "form-checkbox-toggle",
+                  "machineName": "reverse-order-desktop"
+              },
+              {
+                  "uuid": "cbd3a409-577f-4292-afac-a4b32c626d79",
+                  "type": "form-select",
+                  "machineName": "space-below-each-column"
+              },
+              {
+                  "uuid": "7b54757e-890b-466d-b274-330f2b41e935",
+                  "type": "form-select",
+                  "machineName": "column-3-width-phone"
+              },
+              {
+                  "uuid": "af95923d-8ddf-45f0-a32f-03f51069cd56",
+                  "type": "form-select",
+                  "machineName": "column-3-width-tablet"
+              },
+              {
+                  "uuid": "1288f9de-6dc5-4933-a302-1d3800aaa0d1",
+                  "type": "form-select",
+                  "machineName": "column-3-width-desktop"
+              },
+              {
+                  "uuid": "0d6d4bed-d5c9-4559-8852-50bc8afb3b60",
+                  "type": "form-select",
+                  "machineName": "column-4-width-phone"
+              },
+              {
+                  "uuid": "7049a194-18ab-4d0b-b527-b904fbbeaed9",
+                  "type": "form-select",
+                  "machineName": "column-4-width-tablet"
+              },
+              {
+                  "uuid": "e26499bb-4937-4fc1-874c-05d597c0c33e",
+                  "type": "form-select",
+                  "machineName": "column-4-width-desktop"
+              },
+              {
+                  "uuid": "fd23d12d-10a0-4120-8a91-ff42f0a3ee6d",
+                  "type": "form-select",
+                  "machineName": "col-4-phone-width"
+              },
+              {
+                  "uuid": "0d876a69-ed0f-4561-988f-1f461fbbf365",
+                  "type": "form-select",
+                  "machineName": "col-3-phone-width"
+              },
+              {
+                  "uuid": "1242088d-e994-4c3f-b1f5-e92a3dad421c",
+                  "type": "form-select",
+                  "machineName": "col-2-phone-width"
+              },
+              {
+                  "uuid": "14090079-4fee-45b8-b5a5-625910156699",
+                  "type": "form-select",
+                  "machineName": "col-1-phone-width"
+              },
+              {
+                  "uuid": "09a62dcb-6927-4d9d-a1f3-0dda6ef83268",
+                  "type": "form-select",
+                  "machineName": "col-4-tablet-width"
+              },
+              {
+                  "uuid": "ce7d565f-79ca-4cf3-89e4-adc08a2f533b",
+                  "type": "form-select",
+                  "machineName": "col-3-tablet-width"
+              },
+              {
+                  "uuid": "39cd696f-e95a-466e-b99e-e68754f338f6",
+                  "type": "form-select",
+                  "machineName": "col-2-tablet-width"
+              },
+              {
+                  "uuid": "0e300e54-883e-4c1c-8141-a3cc9d3368ac",
+                  "type": "form-select",
+                  "machineName": "col-1-tablet-width"
+              },
+              {
+                  "uuid": "6c2c9c79-a366-467f-8747-4df429c540a2",
+                  "type": "form-select",
+                  "machineName": "col-4-desktop-width"
+              },
+              {
+                  "uuid": "96f1f6bc-e0f0-466b-9f53-557646799ecb",
+                  "type": "form-select",
+                  "machineName": "col-3-desktop-width"
+              },
+              {
+                  "uuid": "b8a77635-a11b-4731-99b1-bf9c58debdef",
+                  "type": "form-select",
+                  "machineName": "col-2-desktop-width"
+              },
+              {
+                  "uuid": "5fa9dd50-bcf5-4aeb-a3c4-a659abecffbb",
+                  "type": "form-select",
+                  "machineName": "col-1-desktop-width"
+              },
+              {
+                  "uuid": "74138cd2-4f7e-4ab9-9efb-3ad56309a32d",
+                  "type": "form-colorpicker",
+                  "machineName": "color-picker"
+              },
+              {
+                  "uuid": "d25455aa-89ee-4fad-8809-dc8b04e66e83",
+                  "type": "form-select",
+                  "machineName": "padding-top-and-bottom"
+              },
+              {
+                  "uuid": "8fa8a6e1-e6dc-43db-9902-e293e761cd72",
+                  "type": "form-select",
+                  "machineName": "padding-left-and-right"
+              },
+              {
+                  "uuid": "18cc37ed-7bc3-4c3c-b82b-64f4f031dd4d",
+                  "type": "form-select",
+                  "machineName": "desktop-order2"
+              },
+              {
+                  "uuid": "0865ea00-40c7-4be3-9545-b611f6009dae",
+                  "type": "form-select",
+                  "machineName": "tablet-order2"
+              },
+              {
+                  "uuid": "dec10bc4-4d52-411b-8c2f-c8ba2fac1341",
+                  "type": "form-select",
+                  "machineName": "phone-order2"
+              },
+              {
+                  "uuid": "155fa8e7-9c9d-4c76-9afa-e669c7c53cc2",
+                  "type": "form-colorpicker",
+                  "machineName": "color-picker2"
+              },
+              {
+                  "uuid": "eb2a49ca-4a88-42d8-9245-f296979b194b",
+                  "type": "form-select",
+                  "machineName": "padding-top-and-bottom2"
+              },
+              {
+                  "uuid": "74656519-2fa5-4786-932b-7529e705e69d",
+                  "type": "form-select",
+                  "machineName": "padding-left-and-right2"
+              },
+              {
+                  "uuid": "b4ceaa32-38a1-4d35-be27-749db30dfd3d",
+                  "type": "form-select",
+                  "machineName": "desktop-order3"
+              },
+              {
+                  "uuid": "6626f47a-d3e4-409b-99b0-e7e18e5adcbb",
+                  "type": "form-select",
+                  "machineName": "tablet-order3"
+              },
+              {
+                  "uuid": "e559d9ce-f99b-4586-9675-6fe4e55d9649",
+                  "type": "form-select",
+                  "machineName": "phone-order3"
+              },
+              {
+                  "uuid": "960c6dc8-2a0e-4535-90e5-153767bd448a",
+                  "type": "form-colorpicker",
+                  "machineName": "color-picker3"
+              },
+              {
+                  "uuid": "f935f5c1-4be6-420f-a5f4-73a948f76604",
+                  "type": "form-select",
+                  "machineName": "padding-top-and-bottom3"
+              },
+              {
+                  "uuid": "fd572b00-4ef9-44f5-bb65-a199c0c8098d",
+                  "type": "form-select",
+                  "machineName": "padding-left-and-right3"
+              },
+              {
+                  "uuid": "26ed6661-3125-4e6e-9422-932f2e483ecb",
+                  "type": "form-select",
+                  "machineName": "desktop-order4"
+              },
+              {
+                  "uuid": "4a84a78a-8ca7-4826-a833-b184b6da4be4",
+                  "type": "form-select",
+                  "machineName": "tablet-order4"
+              },
+              {
+                  "uuid": "6bb8133d-4d6e-43a9-b68e-c0900af25c95",
+                  "type": "form-select",
+                  "machineName": "phone-order4"
+              },
+              {
+                  "uuid": "46620ab9-49dc-432e-b616-aa5eb10177b3",
+                  "type": "form-colorpicker",
+                  "machineName": "color-picker4"
+              },
+              {
+                  "uuid": "9d3f6eb7-6dd6-4030-baaf-37849cbd3889",
+                  "type": "form-select",
+                  "machineName": "padding-top-and-bottom4"
+              },
+              {
+                  "uuid": "62a96b95-2058-44dd-aab6-1081a357f3b8",
+                  "type": "form-select",
+                  "machineName": "padding-left-and-right4"
+              }
+          ]
+      }
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_tab_section_components
+preview_image: 'public://element-preview-images/Text-tab-item.png'
+has_quick_edit: true
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-text-tab-item
+weight: 32

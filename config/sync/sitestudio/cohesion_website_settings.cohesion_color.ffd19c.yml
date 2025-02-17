@@ -1,0 +1,26 @@
+uuid: 95c3eeab-bf5a-49bb-adf5-f0697b830e3e
+langcode: en
+status: true
+dependencies: {  }
+label: FFD19C
+id: ffd19c
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#ffd19c",
+              "rgba": "rgba(255, 209, 156, 1)"
+          }
+      },
+      "uid": "ffd19c",
+      "name": "FFD19C",
+      "class": ".coh-color-ffd19c",
+      "variable": "$coh-color-ffd19c"
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+weight: 2
