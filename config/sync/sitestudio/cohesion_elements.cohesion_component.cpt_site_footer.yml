@@ -2716,11 +2716,11 @@ json_values: |
                                       },
                                       {
                                           "name": "flex-grow",
-                                          "active": false
+                                          "active": true
                                       },
                                       {
                                           "name": "flex-shrink",
-                                          "active": true
+                                          "active": false
                                       },
                                       {
                                           "name": "align-self",
@@ -3184,7 +3184,47 @@ json_values: |
                   "items": []
               },
               "styles": {
-                  "formDefinition": [],
+                  "formDefinition": [
+                      {
+                          "formKey": "layout",
+                          "children": [
+                              {
+                                  "formKey": "flex-item",
+                                  "activeFields": [
+                                      {
+                                          "name": "flex-basis",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "order",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "flex-grow",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "flex-shrink",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "align-self",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "align-self-safety",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
                   "selectorType": "topLevel",
                   "items": [],
                   "form": null
@@ -3702,11 +3742,11 @@ json_values: |
                                       },
                                       {
                                           "name": "flex-grow",
-                                          "active": false
+                                          "active": true
                                       },
                                       {
                                           "name": "flex-shrink",
-                                          "active": true
+                                          "active": false
                                       },
                                       {
                                           "name": "align-self",
@@ -4118,10 +4158,11 @@ json_values: |
                           },
                           "flex-item": {
                               "flex-basis": {
-                                  "value": "0"
+                                  "value": "32"
                               },
-                              "flex-shrink": {
-                                  "value": "1"
+                              "flex-shrink": {},
+                              "flex-grow": {
+                                  "value": "3"
                               }
                           },
                           "font-family": {},
@@ -4132,6 +4173,9 @@ json_values: |
                           "flex-item": {
                               "flex-basis": {
                                   "value": "auto"
+                              },
+                              "flex-grow": {
+                                  "value": "2"
                               }
                           }
                       }
@@ -4314,6 +4358,18 @@ json_values: |
               "styles": {
                   "settings": {
                       "element": "container"
+                  },
+                  "styles": {
+                      "xl": {
+                          "flex-item": {
+                              "flex-grow": {
+                                  "value": "0"
+                              },
+                              "flex-basis": {
+                                  "value": "0"
+                              }
+                          }
+                      }
                   }
               }
           },
@@ -4361,7 +4417,8 @@ json_values: |
                               "flex-basis": {
                                   "value": "0"
                               },
-                              "flex-shrink": {
+                              "flex-shrink": {},
+                              "flex-grow": {
                                   "value": "1"
                               }
                           },
@@ -4394,6 +4451,9 @@ json_values: |
                           "flex-item": {
                               "flex-basis": {
                                   "value": "auto"
+                              },
+                              "flex-grow": {
+                                  "value": "1"
                               }
                           }
                       }

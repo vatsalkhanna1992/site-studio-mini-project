@@ -32,7 +32,7 @@ json_values: |
                               "uid": "menu-link",
                               "title": "Menu link",
                               "status": {
-                                  "collapsed": true
+                                  "collapsed": false
                               },
                               "uuid": "c1bac57c-5416-416e-bf5f-1644b11c536b",
                               "parentUid": "menu-list-item",
@@ -632,6 +632,9 @@ json_values: |
                           },
                           "height": {
                               "value": "100%"
+                          },
+                          "flex-item": {
+                              "flex-basis": {}
                           }
                       },
                       "ps": {
@@ -645,10 +648,10 @@ json_values: |
                           },
                           "padding": {
                               "padding-top": {
-                                  "value": "24"
+                                  "value": "16"
                               },
                               "padding-bottom": {
-                                  "value": "24"
+                                  "value": "16"
                               }
                           }
                       }
@@ -687,10 +690,10 @@ json_values: |
                       "xl": {
                           "padding": {
                               "padding-left": {
-                                  "value": "12"
+                                  "value": "0"
                               },
                               "padding-right": {
-                                  "value": "12"
+                                  "value": "32"
                               }
                           }
                       },
