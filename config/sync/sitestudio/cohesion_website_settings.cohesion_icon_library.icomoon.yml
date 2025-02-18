@@ -3,9 +3,8 @@ langcode: en
 status: true
 dependencies:
   content:
-    - 'file:file:247caa3f-796c-4108-94cb-2cdce4775776'
-    - 'file:file:8db53f43-d323-4cd3-a252-4731c28f4b34'
-    - 'file:file:bdd2c893-32a0-415f-8db6-efb2690dcf81'
+    - 'file:file:b416da8b-92b3-48b1-ba32-e4e15138af3c'
+    - 'file:file:ef8afbd5-05c3-44d4-a9c4-2567af435ce7'
 label: Fontawesome
 id: icomoon
 json_values: |
@@ -18,25 +17,17 @@ json_values: |
           "json": "public:\/\/cohesion\/selection.json"
       },
       "fontFiles": {
-          "eot": {
-              "type": "file",
-              "uri": "public:\/\/cohesion\/icomoon.eot",
-              "uuid": "aafa3621-5bed-4895-abd8-9ed5ef155a38"
-          },
+          "eot": null,
           "ttf": {
               "type": "file",
-              "uri": "public:\/\/cohesion\/icomoon.ttf",
-              "uuid": "7958f6f3-71e4-4be9-b9d9-3f2f3a9cc65f"
+              "uri": "public:\/\/cohesion\/fa-brands-400.ttf",
+              "uuid": "ef8afbd5-05c3-44d4-a9c4-2567af435ce7"
           },
-          "woff": {
-              "type": "file",
-              "uri": "public:\/\/cohesion\/icomoon.woff",
-              "uuid": "d5f934de-069d-4aaa-b04e-30d6f81c49cf"
-          },
+          "woff": null,
           "woff2": {
               "type": "file",
-              "uri": "public:\/\/cohesion\/icomoon.woff2",
-              "uuid": "b5efc7be-89c8-4898-aab5-4c119acef386"
+              "uri": "public:\/\/cohesion\/fa-brands-400.woff2",
+              "uuid": "b416da8b-92b3-48b1-ba32-e4e15138af3c"
           }
       },
       "name": "Fontawesome",

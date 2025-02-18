@@ -3,7 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - cohesion_custom_styles.cohesion_custom_style.001571cb
     - cohesion_custom_styles.cohesion_custom_style.138358a4
+    - cohesion_custom_styles.cohesion_custom_style.990bf87b
     - cohesion_custom_styles.cohesion_custom_style.b03f97e5
     - cohesion_custom_styles.cohesion_custom_style.b4d87dc9
     - cohesion_custom_styles.cohesion_custom_style.e749d6f0
@@ -142,6 +144,20 @@ json_values: |
                                                       ]
                                                   },
                                                   {
+                                                      "uid": "cpt_text",
+                                                      "type": "component",
+                                                      "title": "Text",
+                                                      "enabled": true,
+                                                      "category": "category-4",
+                                                      "componentId": "cpt_text",
+                                                      "componentType": "wysiwyg",
+                                                      "iconColor": "custom",
+                                                      "uuid": "69e050a5-1a8c-4131-ac69-840e69890fa0",
+                                                      "parentUid": "container",
+                                                      "status": {},
+                                                      "children": []
+                                                  },
+                                                  {
                                                       "uid": "cpt_utilities_bar_vertical",
                                                       "type": "component",
                                                       "title": "Utilities bar - vertical",
@@ -200,7 +216,7 @@ json_values: |
               "uid": "container",
               "title": "Container",
               "status": {
-                  "collapsed": true
+                  "collapsed": false
               },
               "uuid": "b57e0ddb-0339-4be9-ae7c-d09089335806",
               "parentUid": "root",
@@ -5638,7 +5654,8 @@ json_values: |
                   "form": null
               }
           },
-          "f9d8b46e-3010-44ae-91f7-678cf3ae0ca4": {}
+          "f9d8b46e-3010-44ae-91f7-678cf3ae0ca4": {},
+          "69e050a5-1a8c-4131-ac69-840e69890fa0": {}
       },
       "model": {
           "f67eb719-47a4-4620-99b2-235ab02b6317": {
@@ -6869,6 +6886,22 @@ json_values: |
                   }
               }
           },
+          "69e050a5-1a8c-4131-ac69-840e69890fa0": {
+              "5fc743c3-6b31-4a40-bd05-24acfb4ca9ba": {
+                  "text": "<p><strong>+ 7900 567 88 67<\/strong><\/p>",
+                  "textFormat": "cohesion"
+              },
+              "21656d58-6784-4331-9370-2e7009487b4f": "coh-style-text-color-light-background",
+              "8bac75a1-19a5-42af-99fa-5877541c6590": "0",
+              "settings": {
+                  "title": "Text"
+              },
+              "f8e05754-678a-4864-9304-c742b959b852": "",
+              "5af21675-f8f5-48ce-816d-faedbed6b600": "",
+              "7f84a990-f95f-4bc3-98c9-2cd496b005ea": "",
+              "6dc6b921-8b08-4047-b4b5-2d838ccbd734": "",
+              "e8b45dd6-c658-4b53-8e30-920df8140564": "coh-style-show-only-on-mobile"
+          },
           "efe780d1-dc14-4086-b2a2-58ea8bf97f14": {},
           "9ceee400-2ff6-4c0d-8e2d-2e73731cd11e": {
               "settings": {
@@ -7010,7 +7043,12 @@ json_values: |
               "8bac75a1-19a5-42af-99fa-5877541c6590": "0",
               "settings": {
                   "title": "Text"
-              }
+              },
+              "e8b45dd6-c658-4b53-8e30-920df8140564": "coh-style-show-only-on-desktop",
+              "f8e05754-678a-4864-9304-c742b959b852": "",
+              "5af21675-f8f5-48ce-816d-faedbed6b600": "",
+              "7f84a990-f95f-4bc3-98c9-2cd496b005ea": "",
+              "6dc6b921-8b08-4047-b4b5-2d838ccbd734": ""
           },
           "b57e0ddb-0339-4be9-ae7c-d09089335806": {
               "settings": {
@@ -7520,7 +7558,8 @@ json_values: |
           "4b999132-5fd5-4527-8805-c3e8e4d22045": {},
           "6274feb3-84b7-4a81-a1f6-f9a4f876e0c7": {},
           "b6d34883-8a15-4507-a299-4ed89592398b": {},
-          "f9d8b46e-3010-44ae-91f7-678cf3ae0ca4": {}
+          "f9d8b46e-3010-44ae-91f7-678cf3ae0ca4": {},
+          "69e050a5-1a8c-4131-ac69-840e69890fa0": {}
       },
       "variableFields": {
           "f67eb719-47a4-4620-99b2-235ab02b6317": [
@@ -7573,7 +7612,8 @@ json_values: |
           "4b999132-5fd5-4527-8805-c3e8e4d22045": [],
           "6274feb3-84b7-4a81-a1f6-f9a4f876e0c7": [],
           "b6d34883-8a15-4507-a299-4ed89592398b": [],
-          "f9d8b46e-3010-44ae-91f7-678cf3ae0ca4": []
+          "f9d8b46e-3010-44ae-91f7-678cf3ae0ca4": [],
+          "69e050a5-1a8c-4131-ac69-840e69890fa0": []
       },
       "disabledNodes": [],
       "meta": {

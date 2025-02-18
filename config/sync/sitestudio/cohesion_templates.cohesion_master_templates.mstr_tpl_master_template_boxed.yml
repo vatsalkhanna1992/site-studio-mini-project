@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - cohesion_custom_styles.cohesion_custom_style.138358a4
-    - cohesion_custom_styles.cohesion_custom_style.3452905e
+    - cohesion_custom_styles.cohesion_custom_style.1a761edb
     - cohesion_custom_styles.cohesion_custom_style.e749d6f0
     - cohesion_custom_styles.cohesion_custom_style.fd99703e
     - cohesion_elements.cohesion_component.cpt_site_footer
@@ -325,14 +325,14 @@ json_values: |
           },
           "8d72fbe2-3a0f-4639-9613-6d8130f65da3": {
               "f9f11fad-85d9-46d9-adc8-7630861fbdac": {
-                  "text": "<p><strong>\u00a9 2020 I PIZZA<\/strong><\/p>",
+                  "text": "<h3><strong>\u00a9 2020 I PIZZA<\/strong><\/h3>",
                   "textFormat": "cohesion"
               },
               "edd0c3b4-30a5-446c-bdea-adf60e363ff2": {
-                  "text": "<p><strong>+ 7900 567 88 67<\/strong><\/p>",
+                  "text": "<h5><strong>+ 7900 567 88 67<\/strong><\/h5>",
                   "textFormat": "cohesion"
               },
-              "5e8437ec-afc1-49fe-8bbc-0323706449a1": "coh-style-footer-light-theme",
+              "5e8437ec-afc1-49fe-8bbc-0323706449a1": "coh-style-footer-pizza-theme",
               "32c0b885-cb2d-48cd-a01f-607b86ac4253": "menu-position-desktop--center",
               "settings": {
                   "title": "Site footer"

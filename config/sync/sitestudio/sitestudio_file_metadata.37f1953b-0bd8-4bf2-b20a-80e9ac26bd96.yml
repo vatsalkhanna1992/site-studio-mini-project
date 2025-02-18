@@ -1,0 +1,9 @@
+uuid: 37f1953b-0bd8-4bf2-b20a-80e9ac26bd96
+langcode: en
+filename: config.json
+uri: 'public://cohesion/config.json'
+filemime: application/json
+filesize: '26245'
+status: '1'
+created: '1739815144'
+changed: '1739815144'

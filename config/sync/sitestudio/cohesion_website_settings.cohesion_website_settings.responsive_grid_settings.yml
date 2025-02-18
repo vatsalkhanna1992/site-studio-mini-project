@@ -24,7 +24,7 @@ json_values: |
               "width": 1170,
               "innerGutter": 32,
               "outerGutter": 64,
-              "widthType": "fixed",
+              "widthType": "fluid",
               "previewColumns": 12,
               "label": "Desktop",
               "class": "coh-icon-desktop",

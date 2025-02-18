@@ -45,7 +45,7 @@ json_values: |
                           "inuse": true,
                           "link": true,
                           "tags": [
-                              "Light"
+                              "light"
                           ]
                       }
                   },
@@ -53,7 +53,7 @@ json_values: |
                       "value": "1"
                   },
                   "border-bottom-style": {
-                      "value": "solid"
+                      "value": "none"
                   },
                   "border-bottom-color": {
                       "value": {
@@ -69,7 +69,7 @@ json_values: |
                           "inuse": true,
                           "wysiwyg": true,
                           "tags": [
-                              "Light"
+                              "light"
                           ]
                       }
                   }
@@ -190,7 +190,7 @@ json_values: |
                               "inuse": true,
                               "wysiwyg": true,
                               "tags": [
-                                  "Light"
+                                  "light"
                               ]
                           }
                       }
@@ -319,7 +319,7 @@ json_values: |
                               "inuse": true,
                               "link": true,
                               "tags": [
-                                  "Light"
+                                  "light"
                               ]
                           }
                       },
@@ -354,7 +354,7 @@ json_values: |
                                       "inuse": true,
                                       "wysiwyg": true,
                                       "tags": [
-                                          "Light"
+                                          "light"
                                       ]
                                   }
                               }
@@ -991,7 +991,7 @@ json_values: |
                               "inuse": true,
                               "link": true,
                               "tags": [
-                                  "Light"
+                                  "light"
                               ]
                           }
                       },
@@ -1009,7 +1009,7 @@ json_values: |
                               "inuse": true,
                               "wysiwyg": true,
                               "tags": [
-                                  "Light"
+                                  "light"
                               ]
                           }
                       }
@@ -1043,7 +1043,7 @@ json_values: |
                               "inuse": true,
                               "link": true,
                               "tags": [
-                                  "Dark"
+                                  "dark"
                               ]
                           }
                       }
@@ -1331,7 +1331,7 @@ json_values: |
                               "inuse": true,
                               "wysiwyg": true,
                               "tags": [
-                                  "Light"
+                                  "light"
                               ]
                           }
                       }
@@ -1850,7 +1850,8 @@ json_values: |
               }
           }
       },
-      "variableFields": []
+      "variableFields": [],
+      "previewModel": {}
   }
 json_mapper: |
   {
@@ -2796,10 +2797,6 @@ json_mapper: |
                                       }
                                   ],
                                   "activeFields": [
-                                      {
-                                          "name": "box-shadow",
-                                          "active": true
-                                      },
                                       {
                                           "name": "boxshadowType",
                                           "active": true
@@ -4467,10 +4464,6 @@ json_mapper: |
                                       }
                                   ],
                                   "activeFields": [
-                                      {
-                                          "name": "transitions",
-                                          "active": true
-                                      },
                                       {
                                           "name": "transitionProperty",
                                           "active": true
