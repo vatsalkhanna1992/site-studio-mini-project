@@ -7,6 +7,7 @@ dependencies:
     - cohesion_custom_styles.cohesion_custom_style.46d78cbf
     - cohesion_custom_styles.cohesion_custom_style.63181883
     - cohesion_custom_styles.cohesion_custom_style.7f4f36dd
+    - cohesion_custom_styles.cohesion_custom_style.990bf87b
     - cohesion_custom_styles.cohesion_custom_style.a0b51e88
     - cohesion_custom_styles.cohesion_custom_style.b03f97e5
     - cohesion_custom_styles.cohesion_custom_style.bc331715
@@ -104,8 +105,7 @@ json_values: |
                       "title": "Tab item",
                       "parentIndex": "form-layout",
                       "status": {
-                          "collapsed": true,
-                          "collapsedParents": []
+                          "collapsed": false
                       },
                       "options": {
                           "formBuilder": true
@@ -346,10 +346,7 @@ json_values: |
                               "uid": "form-section",
                               "title": "Field group",
                               "status": {
-                                  "collapsed": true,
-                                  "collapsedParents": [
-                                      "4bff0877-297e-4d26-8c3b-1be3e6e38c24"
-                                  ]
+                                  "collapsed": false
                               },
                               "options": {
                                   "formBuilder": true
@@ -362,10 +359,7 @@ json_values: |
                                       "uid": "form-select",
                                       "title": "Select",
                                       "status": {
-                                          "collapsed": false,
-                                          "collapsedParents": [
-                                              "1c576e10-44b6-49f8-b5d4-b672728bccdf"
-                                          ]
+                                          "collapsed": false
                                       },
                                       "uuid": "8bac75a1-19a5-42af-99fa-5877541c6590",
                                       "parentUid": "form-section",
@@ -439,6 +433,19 @@ json_values: |
                                       "children": []
                                   }
                               ]
+                          },
+                          {
+                              "type": "form-field",
+                              "uid": "form-select",
+                              "title": "Select",
+                              "translate": false,
+                              "status": {
+                                  "collapsed": false
+                              },
+                              "iconColor": "formField",
+                              "uuid": "e8b45dd6-c658-4b53-8e30-920df8140564",
+                              "parentUid": "form-tab-item",
+                              "children": []
                           }
                       ]
                   },
@@ -798,7 +805,8 @@ json_values: |
           "4bff0877-297e-4d26-8c3b-1be3e6e38c24": {},
           "cdfdc726-2d93-4b1a-a42b-d74f7d413d6e": {},
           "21656d58-6784-4331-9370-2e7009487b4f": {},
-          "5fc743c3-6b31-4a40-bd05-24acfb4ca9ba": {}
+          "5fc743c3-6b31-4a40-bd05-24acfb4ca9ba": {},
+          "e8b45dd6-c658-4b53-8e30-920df8140564": {}
       },
       "model": {
           "ba38ea0d-2eef-40c8-a9c7-b6351667709e": {
@@ -832,6 +840,9 @@ json_values: |
                       },
                       {
                           "customStyle": "[field.7f84a990-f95f-4bc3-98c9-2cd496b005ea]"
+                      },
+                      {
+                          "customStyle": "[field.e8b45dd6-c658-4b53-8e30-920df8140564]"
                       }
                   ]
               },
@@ -991,7 +1002,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -1125,7 +1140,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -1209,7 +1228,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -1289,7 +1312,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -1335,7 +1362,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -1381,7 +1412,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -1402,6 +1437,28 @@ json_values: |
               },
               "contextVisibility": {
                   "condition": "ALL"
+              },
+              "model": {
+                  "value": ""
+              }
+          },
+          "e8b45dd6-c658-4b53-8e30-920df8140564": {
+              "settings": {
+                  "type": "cohSelect",
+                  "title": "Show only on",
+                  "selectType": "custom",
+                  "machineName": "show-only-on",
+                  "options": [
+                      {
+                          "label": "Mobile",
+                          "value": "coh-style-show-only-on-mobile"
+                      },
+                      {
+                          "label": "Desktop",
+                          "value": "coh-style-show-only-on-desktop"
+                      }
+                  ],
+                  "tooltipPlacement": "auto right"
               },
               "model": {
                   "value": ""
@@ -1443,34 +1500,17 @@ json_values: |
                       "textFormat": "cohesion"
                   },
                   "customStyle": [
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      }
-                  ]
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
+                      {},
+                      {}
+                  ],
+                  "title": "WYSIWYG"
               }
           },
           "5fc743c3-6b31-4a40-bd05-24acfb4ca9ba": {},
@@ -1494,23 +1534,25 @@ json_values: |
           "e12ca39e-48e7-462d-bb8d-954988f4f888": {},
           "7f84a990-f95f-4bc3-98c9-2cd496b005ea": {},
           "f3a4c6d5-9184-431c-bc49-77d4cf0215c4": {},
-          "6dc6b921-8b08-4047-b4b5-2d838ccbd734": {}
+          "6dc6b921-8b08-4047-b4b5-2d838ccbd734": {},
+          "e8b45dd6-c658-4b53-8e30-920df8140564": {}
       },
       "variableFields": {
           "ba38ea0d-2eef-40c8-a9c7-b6351667709e": [
+              "styles.styles.xl.background-color.value",
+              "styles.45786357-a9a7-4711-b885-a662b9655817.styles.xl.border-color.value",
+              "styles.styles.xl.flex-item.flex-grow.value",
               "settings.content",
               "settings.customStyle.0.customStyle",
               "settings.customStyle.1.customStyle",
-              "styles.styles.xl.background-color.value",
               "settings.customStyle.2.customStyle",
               "settings.customStyle.3.customStyle",
               "settings.customStyle.4.customStyle",
               "settings.customStyle.5.customStyle",
-              "styles.45786357-a9a7-4711-b885-a662b9655817.styles.xl.border-color.value",
               "settings.customStyle.6.customStyle",
               "settings.customStyle.7.customStyle",
-              "styles.styles.xl.flex-item.flex-grow.value",
-              "settings.customStyle.8.customStyle"
+              "settings.customStyle.8.customStyle",
+              "settings.customStyle.9.customStyle"
           ],
           "cdfdc726-2d93-4b1a-a42b-d74f7d413d6e": [],
           "21656d58-6784-4331-9370-2e7009487b4f": [],
@@ -1535,8 +1577,10 @@ json_values: |
           "e12ca39e-48e7-462d-bb8d-954988f4f888": [],
           "7f84a990-f95f-4bc3-98c9-2cd496b005ea": [],
           "f3a4c6d5-9184-431c-bc49-77d4cf0215c4": [],
-          "6dc6b921-8b08-4047-b4b5-2d838ccbd734": []
+          "6dc6b921-8b08-4047-b4b5-2d838ccbd734": [],
+          "e8b45dd6-c658-4b53-8e30-920df8140564": []
       },
+      "disabledNodes": [],
       "meta": {
           "fieldHistory": [
               {

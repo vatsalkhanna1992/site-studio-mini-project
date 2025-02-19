@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - cohesion_custom_styles.cohesion_custom_style.df0fe2c3
     - cohesion_elements.cohesion_component_category.cpt_cat_header_and_footer_compon
     - cohesion_website_settings.cohesion_icon_library.icomoon
   content:
@@ -48,8 +49,7 @@ json_values: |
                                       "uid": "link",
                                       "title": "Link",
                                       "status": {
-                                          "collapsed": true,
-                                          "collapsedParents": []
+                                          "collapsed": false
                                       },
                                       "uuid": "58aa68ae-b801-4718-a3fc-17ddf80a37a2",
                                       "parentUid": "list-item",
@@ -955,45 +955,6 @@ json_values: |
                                       {
                                           "name": "align-items-safety",
                                           "active": true
-                                      }
-                                  ]
-                              }
-                          ]
-                      },
-                      {
-                          "formKey": "font",
-                          "children": [
-                              {
-                                  "formKey": "font-sizing-and-alignment",
-                                  "breakpoints": [
-                                      {
-                                          "name": "xl"
-                                      }
-                                  ],
-                                  "activeFields": [
-                                      {
-                                          "name": "font-size",
-                                          "active": true
-                                      },
-                                      {
-                                          "name": "line-height",
-                                          "active": false
-                                      },
-                                      {
-                                          "name": "text-align",
-                                          "active": false
-                                      },
-                                      {
-                                          "name": "letter-spacing",
-                                          "active": false
-                                      },
-                                      {
-                                          "name": "word-spacing",
-                                          "active": false
-                                      },
-                                      {
-                                          "name": "text-indent",
-                                          "active": false
                                       }
                                   ]
                               }
@@ -2078,7 +2039,7 @@ json_values: |
                   "element": "li",
                   "customStyle": [
                       {
-                          "customStyle": ""
+                          "customStyle": "coh-style-social-icon"
                       }
                   ],
                   "settings": {
@@ -2150,7 +2111,10 @@ json_values: |
                   },
                   "type": "url",
                   "target": "_blank",
-                  "url": "[field.523afe0e-2cab-42d3-a845-53944be67431]"
+                  "url": "[field.523afe0e-2cab-42d3-a845-53944be67431]",
+                  "noFollow": "",
+                  "noOpener": "",
+                  "noReferrer": ""
               },
               "context-visibility": {
                   "contextVisibility": {
@@ -2441,9 +2405,9 @@ json_values: |
                                   "value": "center"
                               }
                           },
-                          "font-size": {
-                              "value": "14"
-                          }
+                          "font-size": {},
+                          "color": {},
+                          "background-color": {}
                       },
                       "ps": {
                           "width": {
@@ -2846,7 +2810,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -2997,9 +2965,7 @@ json_values: |
           "58aa68ae-b801-4718-a3fc-17ddf80a37a2": {
               "settings": {
                   "customStyle": [
-                      {
-                          "customStyle": ""
-                      },
+                      {},
                       {}
                   ],
                   "url": "#"
@@ -3028,11 +2994,12 @@ json_values: |
           "553dcc30-2403-4580-9697-886cc5c22e40": [],
           "b7b48e2f-427c-41dd-8b1f-480be3bce017": [],
           "58aa68ae-b801-4718-a3fc-17ddf80a37a2": [
+              "markup.attributes.0.value",
               "settings.url",
-              "settings.customStyle.0.customStyle",
-              "markup.attributes.0.value"
+              "settings.customStyle.0.customStyle"
           ]
       },
+      "disabledNodes": [],
       "meta": {
           "fieldHistory": [
               {

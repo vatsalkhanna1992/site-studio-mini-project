@@ -1,0 +1,128 @@
+uuid: 7f71356f-42e2-4a60-be8a-736f6e5e0e6b
+langcode: en
+status: true
+dependencies: {  }
+label: 'Show only on mobile'
+id: 990bf87b
+json_values: |
+  {
+      "preview": {
+          "text": "<div class=\"coh-preview\">Default content for 'Generic'.<\/div>",
+          "textFormat": "cohesion",
+          "background": {
+              "value": {
+                  "rgba": "rgba(255,255,255,1)"
+              }
+          }
+      },
+      "styles": {
+          "settings": {
+              "element": "div"
+          },
+          "styles": {
+              "xl": {
+                  "display": {
+                      "value": "none"
+                  }
+              },
+              "lg": {
+                  "display": {
+                      "value": "none"
+                  }
+              },
+              "md": {
+                  "display": {
+                      "value": "none"
+                  }
+              },
+              "sm": {
+                  "display": {
+                      "value": "block"
+                  }
+              },
+              "ps": {
+                  "display": {
+                      "value": "none"
+                  }
+              },
+              "xs": {
+                  "display": {
+                      "value": "block"
+                  }
+              }
+          }
+      },
+      "previewModel": {},
+      "variableFields": []
+  }
+json_mapper: |
+  {
+      "styles": {
+          "title": "Default",
+          "selectorType": "topLevel",
+          "formDefinition": [
+              {
+                  "formKey": "layout",
+                  "children": [
+                      {
+                          "formKey": "display",
+                          "activeFields": [
+                              {
+                                  "name": "display",
+                                  "active": true
+                              },
+                              {
+                                  "name": "visibility",
+                                  "active": true
+                              },
+                              {
+                                  "name": "overflow",
+                                  "active": true
+                              },
+                              {
+                                  "name": "overflow-x",
+                                  "active": true
+                              },
+                              {
+                                  "name": "overflow-y",
+                                  "active": true
+                              }
+                          ],
+                          "breakpoints": [
+                              {
+                                  "iconName": "television",
+                                  "name": "xl"
+                              },
+                              {
+                                  "name": "lg"
+                              },
+                              {
+                                  "name": "md"
+                              },
+                              {
+                                  "name": "sm"
+                              },
+                              {
+                                  "name": "ps"
+                              },
+                              {
+                                  "name": "xs"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ],
+          "items": []
+      }
+  }
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+class_name: .coh-style-show-only-on-mobile
+custom_style_type: generic
+available_in_wysiwyg: false
+available_in_wysiwyg_inline: true
+parent: null
+weight: 0

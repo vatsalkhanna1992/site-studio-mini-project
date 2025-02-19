@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - cohesion_custom_styles.cohesion_custom_style.1a761edb
     - cohesion_custom_styles.cohesion_custom_style.3452905e
     - cohesion_custom_styles.cohesion_custom_style.83e6af4a
     - cohesion_custom_styles.cohesion_custom_style.d0ab20dd
@@ -10,6 +11,8 @@ dependencies:
     - cohesion_elements.cohesion_component.cpt_social_links
     - cohesion_elements.cohesion_component_category.cpt_cat_header_and_footer_compon
     - cohesion_templates.cohesion_menu_templates.menu_tpl_footer
+    - cohesion_website_settings.cohesion_color.gray-70
+    - cohesion_website_settings.cohesion_font_stack.montserrat-regular
   content:
     - 'file:file:a483c3c3-a05f-47a3-ac8f-170209631484'
 label: 'Site footer'
@@ -42,22 +45,9 @@ json_values: |
                               "uid": "container",
                               "title": "Container",
                               "status": {
-                                  "collapsed": true,
-                                  "collapsedParents": []
+                                  "collapsed": false
                               },
                               "uuid": "2bbcd819-afe5-42fa-90e1-8ff9579ae2e1",
-                              "parentUid": "container",
-                              "children": []
-                          },
-                          {
-                              "type": "container",
-                              "uid": "container",
-                              "title": "Container",
-                              "status": {
-                                  "collapsed": false,
-                                  "collapsedParents": []
-                              },
-                              "uuid": "74f0c4d9-0821-4956-a23a-ef8cf6f06bb3",
                               "parentUid": "container",
                               "children": [
                                   {
@@ -65,8 +55,7 @@ json_values: |
                                       "uid": "container",
                                       "title": "Container",
                                       "status": {
-                                          "collapsed": true,
-                                          "collapsedParents": []
+                                          "collapsed": false
                                       },
                                       "uuid": "9da3512b-9457-49cf-b8ed-f32bf20b17e3",
                                       "parentUid": "container",
@@ -95,6 +84,18 @@ json_values: |
                                   "collapsed": false,
                                   "collapsedParents": []
                               },
+                              "uuid": "74f0c4d9-0821-4956-a23a-ef8cf6f06bb3",
+                              "parentUid": "container",
+                              "children": []
+                          },
+                          {
+                              "type": "container",
+                              "uid": "container",
+                              "title": "Container",
+                              "status": {
+                                  "collapsed": false,
+                                  "collapsedParents": []
+                              },
                               "uuid": "c781a8fc-83bf-457d-b322-b99f577ffd06",
                               "parentUid": "container",
                               "children": [
@@ -103,11 +104,12 @@ json_values: |
                                       "type": "component",
                                       "title": "Social links",
                                       "enabled": true,
-                                      "category": "category-3",
+                                      "category": "category-15",
                                       "componentId": "cpt_social_links",
                                       "componentType": "list-container",
                                       "uuid": "12d019c0-cd30-4695-b604-4e69f34d1a6c",
                                       "parentUid": "container",
+                                      "status": {},
                                       "children": []
                                   }
                               ]
@@ -286,7 +288,7 @@ json_values: |
                               "uid": "form-section",
                               "title": "Field group",
                               "status": {
-                                  "collapsed": true
+                                  "collapsed": false
                               },
                               "options": {
                                   "formBuilder": true
@@ -2061,7 +2063,69 @@ json_values: |
                   "items": []
               },
               "styles": {
-                  "formDefinition": [],
+                  "formDefinition": [
+                      {
+                          "formKey": "font",
+                          "children": [
+                              {
+                                  "formKey": "font-and-color",
+                                  "activeFields": [
+                                      {
+                                          "name": "font-family",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "font-weight",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "color",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "font-sizing-and-alignment",
+                                  "activeFields": [
+                                      {
+                                          "name": "font-size",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "line-height",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "text-align",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "letter-spacing",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "word-spacing",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "text-indent",
+                                          "active": false
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
                   "selectorType": "topLevel",
                   "items": [],
                   "form": null
@@ -2652,11 +2716,11 @@ json_values: |
                                       },
                                       {
                                           "name": "flex-grow",
-                                          "active": false
+                                          "active": true
                                       },
                                       {
                                           "name": "flex-shrink",
-                                          "active": true
+                                          "active": false
                                       },
                                       {
                                           "name": "align-self",
@@ -2665,6 +2729,67 @@ json_values: |
                                       {
                                           "name": "align-self-safety",
                                           "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          "formKey": "font",
+                          "children": [
+                              {
+                                  "formKey": "font-and-color",
+                                  "activeFields": [
+                                      {
+                                          "name": "font-family",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "font-weight",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "color",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "font-sizing-and-alignment",
+                                  "activeFields": [
+                                      {
+                                          "name": "font-size",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "line-height",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "text-align",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "letter-spacing",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "word-spacing",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "text-indent",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
                                       }
                                   ]
                               }
@@ -3059,7 +3184,47 @@ json_values: |
                   "items": []
               },
               "styles": {
-                  "formDefinition": [],
+                  "formDefinition": [
+                      {
+                          "formKey": "layout",
+                          "children": [
+                              {
+                                  "formKey": "flex-item",
+                                  "activeFields": [
+                                      {
+                                          "name": "flex-basis",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "order",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "flex-grow",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "flex-shrink",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "align-self",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "align-self-safety",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
                   "selectorType": "topLevel",
                   "items": [],
                   "form": null
@@ -3577,11 +3742,11 @@ json_values: |
                                       },
                                       {
                                           "name": "flex-grow",
-                                          "active": false
+                                          "active": true
                                       },
                                       {
                                           "name": "flex-shrink",
-                                          "active": true
+                                          "active": false
                                       },
                                       {
                                           "name": "align-self",
@@ -3834,7 +3999,9 @@ json_values: |
                   ],
                   "form": null
               }
-          }
+          },
+          "12d019c0-cd30-4695-b604-4e69f34d1a6c": {},
+          "5e8437ec-afc1-49fe-8bbc-0323706449a1": {}
       },
       "model": {
           "b40fa77a-705b-4fb3-8d67-6d0b2b2da14d": {
@@ -3889,7 +4056,7 @@ json_values: |
           "c670b427-e512-4829-9dac-3c70a54d71b1": {
               "settings": {
                   "title": ".primary-row",
-                  "width": "fluid",
+                  "width": "boxed",
                   "customStyle": [
                       {
                           "customStyle": ""
@@ -3944,7 +4111,7 @@ json_values: |
                           },
                           "flex-container": {
                               "flex-direction": {
-                                  "value": "column"
+                                  "value": "row"
                               }
                           }
                       }
@@ -3991,17 +4158,24 @@ json_values: |
                           },
                           "flex-item": {
                               "flex-basis": {
-                                  "value": "0"
+                                  "value": "32"
                               },
-                              "flex-shrink": {
-                                  "value": "1"
+                              "flex-shrink": {},
+                              "flex-grow": {
+                                  "value": "3"
                               }
-                          }
+                          },
+                          "font-family": {},
+                          "color": {},
+                          "font-size": {}
                       },
                       "ps": {
                           "flex-item": {
                               "flex-basis": {
                                   "value": "auto"
+                              },
+                              "flex-grow": {
+                                  "value": "2"
                               }
                           }
                       }
@@ -4083,35 +4257,6 @@ json_values: |
                   }
               }
           },
-          "74f0c4d9-0821-4956-a23a-ef8cf6f06bb3": {
-              "settings": {
-                  "title": "Container - center (DO NOT DELETE)",
-                  "width": "fluid",
-                  "customStyle": [
-                      {
-                          "customStyle": ""
-                      }
-                  ],
-                  "settings": {
-                      "width": "fluid",
-                      "customStyle": [
-                          {
-                              "customStyle": ""
-                          }
-                      ]
-                  }
-              },
-              "context-visibility": {
-                  "contextVisibility": {
-                      "condition": "ALL"
-                  }
-              },
-              "styles": {
-                  "settings": {
-                      "element": "container"
-                  }
-              }
-          },
           "9da3512b-9457-49cf-b8ed-f32bf20b17e3": {
               "settings": {
                   "title": ".footer-menu",
@@ -4187,6 +4332,47 @@ json_values: |
                   }
               }
           },
+          "74f0c4d9-0821-4956-a23a-ef8cf6f06bb3": {
+              "settings": {
+                  "title": "Container - center (DO NOT DELETE)",
+                  "width": "fluid",
+                  "customStyle": [
+                      {
+                          "customStyle": ""
+                      }
+                  ],
+                  "settings": {
+                      "width": "fluid",
+                      "customStyle": [
+                          {
+                              "customStyle": ""
+                          }
+                      ]
+                  }
+              },
+              "context-visibility": {
+                  "contextVisibility": {
+                      "condition": "ALL"
+                  }
+              },
+              "styles": {
+                  "settings": {
+                      "element": "container"
+                  },
+                  "styles": {
+                      "xl": {
+                          "flex-item": {
+                              "flex-grow": {
+                                  "value": "0"
+                              },
+                              "flex-basis": {
+                                  "value": "0"
+                              }
+                          }
+                      }
+                  }
+              }
+          },
           "c781a8fc-83bf-457d-b322-b99f577ffd06": {
               "settings": {
                   "title": "Container - right (DO NOT DELETE)",
@@ -4231,8 +4417,33 @@ json_values: |
                               "flex-basis": {
                                   "value": "0"
                               },
-                              "flex-shrink": {
+                              "flex-shrink": {},
+                              "flex-grow": {
                                   "value": "1"
+                              }
+                          },
+                          "font-family": {
+                              "value": "$coh-arial"
+                          },
+                          "font-size": {
+                              "value": "20px"
+                          },
+                          "color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Gray 70",
+                                  "uid": "gray-70",
+                                  "class": ".coh-color-gray-70",
+                                  "variable": "$coh-color-gray-70",
+                                  "value": {
+                                      "hex": "#484848",
+                                      "rgba": "rgba(72, 72, 72, 1)"
+                                  },
+                                  "inuse": true,
+                                  "wysiwyg": true,
+                                  "tags": [
+                                      "dark"
+                                  ]
                               }
                           }
                       },
@@ -4240,6 +4451,9 @@ json_values: |
                           "flex-item": {
                               "flex-basis": {
                                   "value": "auto"
+                              },
+                              "flex-grow": {
+                                  "value": "1"
                               }
                           }
                       }
@@ -4334,31 +4548,26 @@ json_values: |
               },
               "8fa56baf-1a4e-482a-9631-c69d45e3079b": [
                   {
+                      "b7b48e2f-427c-41dd-8b1f-480be3bce017": "vkontakte",
+                      "523afe0e-2cab-42d3-a845-53944be67431": "https:\/\/instagram.com\/acquia",
+                      "41e4bef4-fb24-4953-9bc1-e7896b7e2507": "Follow us on Instagram"
+                  },
+                  {
                       "b7b48e2f-427c-41dd-8b1f-480be3bce017": "facebook",
                       "523afe0e-2cab-42d3-a845-53944be67431": "https:\/\/www.facebook.com\/acquia",
                       "41e4bef4-fb24-4953-9bc1-e7896b7e2507": "Follow us on Facebook"
                   },
                   {
                       "b7b48e2f-427c-41dd-8b1f-480be3bce017": "twitter",
-                      "523afe0e-2cab-42d3-a845-53944be67431": "https:\/\/www.twitter.com\/acquia",
-                      "41e4bef4-fb24-4953-9bc1-e7896b7e2507": "Follow us on Twitter"
-                  },
-                  {
-                      "b7b48e2f-427c-41dd-8b1f-480be3bce017": "linkedin",
-                      "523afe0e-2cab-42d3-a845-53944be67431": "https:\/\/www.linkedin.com\/acquia",
-                      "41e4bef4-fb24-4953-9bc1-e7896b7e2507": "Follow us on Linkedin"
-                  },
-                  {
-                      "b7b48e2f-427c-41dd-8b1f-480be3bce017": "pinterest",
-                      "523afe0e-2cab-42d3-a845-53944be67431": "https:\/\/www.pinterest.com\/acquia",
-                      "41e4bef4-fb24-4953-9bc1-e7896b7e2507": "Follow us on Pinterest"
+                      "523afe0e-2cab-42d3-a845-53944be67431": "https:\/\/twitter.com\/acquia",
+                      "41e4bef4-fb24-4953-9bc1-e7896b7e2507": "Follow us on Twiiter"
                   }
               ]
           },
           "749a2078-a505-4494-9092-48bb389fe281": {
               "settings": {
                   "title": ".secondary-row",
-                  "width": "fluid",
+                  "width": "boxed",
                   "customStyle": [
                       {
                           "customStyle": ""
@@ -4579,6 +4788,37 @@ json_values: |
               "styles": {
                   "settings": {
                       "element": "wysiwyg"
+                  },
+                  "styles": {
+                      "xl": {
+                          "font-family": {
+                              "value": "$coh-font-montserrat-regular"
+                          },
+                          "font-weight": {
+                              "value": "800"
+                          },
+                          "color": {
+                              "value": {
+                                  "link": true,
+                                  "name": "Gray 70",
+                                  "uid": "gray-70",
+                                  "class": ".coh-color-gray-70",
+                                  "variable": "$coh-color-gray-70",
+                                  "value": {
+                                      "hex": "#484848",
+                                      "rgba": "rgba(72, 72, 72, 1)"
+                                  },
+                                  "inuse": true,
+                                  "wysiwyg": true,
+                                  "tags": [
+                                      "dark"
+                                  ]
+                              }
+                          },
+                          "font-size": {
+                              "value": "36"
+                          }
+                      }
                   }
               }
           },
@@ -4830,7 +5070,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -4844,6 +5088,10 @@ json_values: |
                       {
                           "label": "Colored",
                           "value": "coh-style-footer-colored-theme"
+                      },
+                      {
+                          "label": "Pizza",
+                          "value": "coh-style-footer-pizza-theme"
                       }
                   ],
                   "machineName": "footer-color-theme",
@@ -4880,7 +5128,11 @@ json_values: |
                   "type": "cohSelect",
                   "selectType": "custom",
                   "schema": {
-                      "type": "string"
+                      "type": [
+                          "string",
+                          "number",
+                          "boolean"
+                      ]
                   },
                   "options": [
                       {
@@ -4911,12 +5163,8 @@ json_values: |
           "b40fa77a-705b-4fb3-8d67-6d0b2b2da14d": {
               "settings": {
                   "customStyle": [
-                      {
-                          "customStyle": ""
-                      },
-                      {
-                          "customStyle": ""
-                      }
+                      {},
+                      {}
                   ]
               }
           },
@@ -4989,6 +5237,7 @@ json_values: |
           "edd0c3b4-30a5-446c-bdea-adf60e363ff2": [],
           "12d019c0-cd30-4695-b604-4e69f34d1a6c": []
       },
+      "disabledNodes": [],
       "meta": {
           "fieldHistory": [
               {

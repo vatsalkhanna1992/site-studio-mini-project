@@ -3,8 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - cohesion_website_settings.cohesion_color.brand-color
-    - cohesion_website_settings.cohesion_color.brand-color-light
+    - cohesion_website_settings.cohesion_color.gray-70
     - cohesion_website_settings.cohesion_color.white
     - cohesion_website_settings.cohesion_icon_library.icomoon
 label: 'Social icon'
@@ -44,7 +43,9 @@ json_values: |
                   },
                   "display": {
                       "value": "inline-block"
-                  }
+                  },
+                  "color": {},
+                  "background-color": {}
               }
           },
           "d465a6f9-c3b9-4b3f-bc0b-0c3d807d0c96": {
@@ -66,25 +67,26 @@ json_values: |
                       },
                       "color": {
                           "value": {
-                              "name": "White",
-                              "uid": "white",
-                              "value": {
-                                  "hex": "#ffffff",
-                                  "rgba": "rgba(255, 255, 255, 1)"
-                              },
-                              "wysiwyg": true,
-                              "class": ".coh-color-white",
-                              "variable": "$coh-color-white",
-                              "inuse": true,
                               "link": true,
+                              "name": "Gray 70",
+                              "uid": "gray-70",
+                              "class": ".coh-color-gray-70",
+                              "variable": "$coh-color-gray-70",
+                              "value": {
+                                  "hex": "#484848",
+                                  "rgba": "rgba(72, 72, 72, 1)"
+                              },
+                              "inuse": true,
+                              "wysiwyg": true,
                               "tags": [
-                                  "Light"
+                                  "dark"
                               ]
                           }
                       },
                       "font-size": {
-                          "value": "16"
-                      }
+                          "value": "24"
+                      },
+                      "background-color": {}
                   }
               }
           },
@@ -98,22 +100,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "background-color": {
-                          "value": {
-                              "link": true,
-                              "name": "Brand color light",
-                              "uid": "brand-color-light",
-                              "class": ".coh-color-brand-color-light",
-                              "variable": "$coh-color-brand-color-light",
-                              "value": {
-                                  "hex": "#70c3e9",
-                                  "rgba": "rgba(112, 195, 233, 1)"
-                              },
-                              "wysiwyg": true,
-                              "inuse": true,
-                              "tags": [
-                                  "Color"
-                              ]
-                          }
+                          "value": {}
                       },
                       "color": {
                           "value": {
@@ -129,7 +116,7 @@ json_values: |
                               "inuse": true,
                               "link": true,
                               "tags": [
-                                  "Light"
+                                  "light"
                               ]
                           }
                       }
@@ -146,22 +133,7 @@ json_values: |
               "styles": {
                   "xl": {
                       "background-color": {
-                          "value": {
-                              "link": true,
-                              "name": "Brand color",
-                              "uid": "brand-color",
-                              "class": ".coh-color-brand-color",
-                              "variable": "$coh-color-brand-color",
-                              "value": {
-                                  "hex": "#26a3dd",
-                                  "rgba": "rgba(38, 163, 221, 1)"
-                              },
-                              "inuse": true,
-                              "wysiwyg": true,
-                              "tags": [
-                                  "Color"
-                              ]
-                          }
+                          "value": {}
                       },
                       "min-height": {},
                       "height": {
@@ -209,12 +181,14 @@ json_values: |
                                   "value": "ease"
                               }
                           }
-                      ]
+                      ],
+                      "color": {}
                   }
               }
           }
       },
-      "variableFields": []
+      "variableFields": [],
+      "previewModel": {}
   }
 json_mapper: |
   {
@@ -616,10 +590,6 @@ json_mapper: |
                                       }
                                   ],
                                   "activeFields": [
-                                      {
-                                          "name": "transitions",
-                                          "active": true
-                                      },
                                       {
                                           "name": "transitionProperty",
                                           "active": true

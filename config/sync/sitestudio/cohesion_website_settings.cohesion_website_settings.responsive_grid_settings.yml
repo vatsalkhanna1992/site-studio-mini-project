@@ -73,9 +73,7 @@ json_values: |
               "iconHex": "F10B",
               "boxedWidth": 272,
               "width": 320,
-              "widthType": "fluid",
-              "mobilePlaceholderWidth": 320,
-              "mobilePlaceholderType": "fluid"
+              "widthType": "fluid"
           }
       }
   }

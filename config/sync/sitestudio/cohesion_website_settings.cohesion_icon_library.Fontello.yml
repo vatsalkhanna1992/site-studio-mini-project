@@ -1,18 +1,19 @@
-uuid: db5f2079-f908-4bfb-938d-9c37f3ffd262
+uuid: 8ac8f0a2-40e3-43aa-a5fe-983cce691d26
 langcode: en
 status: true
 dependencies:
   content:
-    - 'file:file:247caa3f-796c-4108-94cb-2cdce4775776'
-    - 'file:file:8db53f43-d323-4cd3-a252-4731c28f4b34'
-    - 'file:file:bdd2c893-32a0-415f-8db6-efb2690dcf81'
-label: icomoon
+    - 'file:file:37f1953b-0bd8-4bf2-b20a-80e9ac26bd96'
+    - 'file:file:3d8a3a73-ac06-42f9-a36e-0d2cd989a6a1'
+    - 'file:file:4b5a4368-cf90-4a6f-bf62-d63d29ea1b10'
+    - 'file:file:936e0735-5748-4aae-88db-c8411c039f63'
+    - 'file:file:af023325-dfb3-45fc-b7a3-58c9be7e7f5b'
+label: Fontello
 id: Fontello
 json_values: |
   {
       "fontFamilyName": "Fontello",
-      "inuse": false,
-      "name": "icomoon",
+      "name": "Fontello",
       "key": "uploadFontello",
       "type": "upload",
       "provider": "Fontello",
@@ -20,24 +21,27 @@ json_values: |
       "fontFiles": {
           "eot": {
               "type": "file",
-              "uri": "public:\/\/cohesion\/icomoon.eot",
-              "uuid": "8db53f43-d323-4cd3-a252-4731c28f4b34"
+              "uri": "public:\/\/cohesion\/fontello.eot",
+              "uuid": "af023325-dfb3-45fc-b7a3-58c9be7e7f5b"
           },
           "ttf": {
               "type": "file",
-              "uri": "public:\/\/cohesion\/icomoon.ttf",
-              "uuid": "247caa3f-796c-4108-94cb-2cdce4775776"
+              "uri": "public:\/\/cohesion\/fontello.ttf",
+              "uuid": "936e0735-5748-4aae-88db-c8411c039f63"
           },
           "woff": {
               "type": "file",
-              "uri": "public:\/\/cohesion\/icomoon.woff",
-              "uuid": "bdd2c893-32a0-415f-8db6-efb2690dcf81"
+              "uri": "public:\/\/cohesion\/fontello.woff",
+              "uuid": "4b5a4368-cf90-4a6f-bf62-d63d29ea1b10"
           },
-          "woff2": null
+          "woff2": {
+              "type": "file",
+              "uri": "public:\/\/cohesion\/fontello.woff2",
+              "uuid": "3d8a3a73-ac06-42f9-a36e-0d2cd989a6a1"
+          }
       },
       "iconJSON": {
-          "message": "Site Studio API",
-          "error": "Invalid icon library loaded"
+          "json": "public:\/\/cohesion\/config.json"
       }
   }
 json_mapper: '{}'
